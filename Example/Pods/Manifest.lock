@@ -1,0 +1,16 @@
+PODS:
+  - KKFileBrowser (0.1.0)
+
+DEPENDENCIES:
+  - KKFileBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  KKFileBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKFileBrowser: 81b16238675090d24a6673cbf1e319f0a5356100
+
+PODFILE CHECKSUM: eb92f5c063c4c1df52072c9c554fb713da9543d3
+
+COCOAPODS: 1.10.1

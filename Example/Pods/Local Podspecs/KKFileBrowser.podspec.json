@@ -1,0 +1,22 @@
+{
+  "name": "KKFileBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of KKFileBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenghengsheng/KKFileBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenghengsheng": "chenghs@shinemo.com"
+  },
+  "source": {
+    "git": "https://github.com/chenghengsheng/KKFileBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KKFileBrowser/Classes/**/*"
+}
