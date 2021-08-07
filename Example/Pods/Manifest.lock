@@ -1,5 +1,5 @@
 PODS:
-  - KKFileBrowser (1.0.0)
+  - KKFileBrowser (1.0.2)
 
 DEPENDENCIES:
   - KKFileBrowser (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKFileBrowser: 0b66e0f89b773c79c83a313491316d95485993e5
+  KKFileBrowser: 86b496f678fb3aaebae9b16d96860c4b5632b591
 
 PODFILE CHECKSUM: eb92f5c063c4c1df52072c9c554fb713da9543d3
 
