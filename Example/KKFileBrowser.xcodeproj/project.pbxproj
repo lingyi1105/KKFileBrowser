@@ -23,6 +23,21 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8C8AA1B9D83DC5A2C2F3B7EE /* Pods_KKFileBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAB99D88328D1A7F0F79C5E /* Pods_KKFileBrowser_Example.framework */; };
+		8F152B4626BE783A0036DA7C /* KKFileDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F152B4526BE783A0036DA7C /* KKFileDirectoryViewController.m */; };
+		8F152B4A26BE79450036DA7C /* KKFileBrowserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F152B4926BE79450036DA7C /* KKFileBrowserInfo.m */; };
+		8F152B4D26BE87560036DA7C /* KKFileBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F152B4C26BE87560036DA7C /* KKFileBrowserCollectionViewCell.m */; };
+		8F47EF6F26C3EF7300A9B701 /* KKQLPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F47EF6E26C3EF7300A9B701 /* KKQLPreviewController.m */; };
+		8F48A4F426C3B092006F9F37 /* KKFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F48A4F326C3B092006F9F37 /* KKFileListViewController.m */; };
+		8F48A4F726C3B1D0006F9F37 /* NSString+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F48A4F626C3B1D0006F9F37 /* NSString+KKFileBrowser.m */; };
+		8F48A4F926C3BB1B006F9F37 /* kk_icon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4F826C3BB1B006F9F37 /* kk_icon_right.png */; };
+		8F48A50226C3D4AD006F9F37 /* kk_icon_fileDic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FA26C3D4AC006F9F37 /* kk_icon_fileDic.png */; };
+		8F48A50326C3D4AD006F9F37 /* kk_icon_fileWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FB26C3D4AC006F9F37 /* kk_icon_fileWeb.png */; };
+		8F48A50426C3D4AD006F9F37 /* kk_icon_fileUnknow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FC26C3D4AC006F9F37 /* kk_icon_fileUnknow.png */; };
+		8F48A50526C3D4AD006F9F37 /* kk_icon_fileMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FD26C3D4AC006F9F37 /* kk_icon_fileMusic.png */; };
+		8F48A50626C3D4AD006F9F37 /* kk_icon_fileZip.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FE26C3D4AD006F9F37 /* kk_icon_fileZip.png */; };
+		8F48A50726C3D4AD006F9F37 /* kk_icon_fileTxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A4FF26C3D4AD006F9F37 /* kk_icon_fileTxt.png */; };
+		8F48A50826C3D4AD006F9F37 /* kk_icon_fileVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A50026C3D4AD006F9F37 /* kk_icon_fileVideo.png */; };
+		8F48A50926C3D4AD006F9F37 /* kk_icon_fileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F48A50126C3D4AD006F9F37 /* kk_icon_fileImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +75,27 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A854401CE36C49BF9552CEC /* Pods-KKFileBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFileBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8AED3EDDB1B458692C329056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F152B4426BE783A0036DA7C /* KKFileDirectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFileDirectoryViewController.h; sourceTree = "<group>"; };
+		8F152B4526BE783A0036DA7C /* KKFileDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFileDirectoryViewController.m; sourceTree = "<group>"; };
+		8F152B4826BE79450036DA7C /* KKFileBrowserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFileBrowserInfo.h; sourceTree = "<group>"; };
+		8F152B4926BE79450036DA7C /* KKFileBrowserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFileBrowserInfo.m; sourceTree = "<group>"; };
+		8F152B4B26BE87560036DA7C /* KKFileBrowserCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFileBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		8F152B4C26BE87560036DA7C /* KKFileBrowserCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFileBrowserCollectionViewCell.m; sourceTree = "<group>"; };
+		8F47EF6D26C3EF7300A9B701 /* KKQLPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKQLPreviewController.h; sourceTree = "<group>"; };
+		8F47EF6E26C3EF7300A9B701 /* KKQLPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKQLPreviewController.m; sourceTree = "<group>"; };
+		8F48A4F226C3B092006F9F37 /* KKFileListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKFileListViewController.h; sourceTree = "<group>"; };
+		8F48A4F326C3B092006F9F37 /* KKFileListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKFileListViewController.m; sourceTree = "<group>"; };
+		8F48A4F526C3B1D0006F9F37 /* NSString+KKFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KKFileBrowser.h"; sourceTree = "<group>"; };
+		8F48A4F626C3B1D0006F9F37 /* NSString+KKFileBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKFileBrowser.m"; sourceTree = "<group>"; };
+		8F48A4F826C3BB1B006F9F37 /* kk_icon_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_right.png; sourceTree = "<group>"; };
+		8F48A4FA26C3D4AC006F9F37 /* kk_icon_fileDic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileDic.png; sourceTree = "<group>"; };
+		8F48A4FB26C3D4AC006F9F37 /* kk_icon_fileWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileWeb.png; sourceTree = "<group>"; };
+		8F48A4FC26C3D4AC006F9F37 /* kk_icon_fileUnknow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileUnknow.png; sourceTree = "<group>"; };
+		8F48A4FD26C3D4AC006F9F37 /* kk_icon_fileMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileMusic.png; sourceTree = "<group>"; };
+		8F48A4FE26C3D4AD006F9F37 /* kk_icon_fileZip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileZip.png; sourceTree = "<group>"; };
+		8F48A4FF26C3D4AD006F9F37 /* kk_icon_fileTxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileTxt.png; sourceTree = "<group>"; };
+		8F48A50026C3D4AD006F9F37 /* kk_icon_fileVideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileVideo.png; sourceTree = "<group>"; };
+		8F48A50126C3D4AD006F9F37 /* kk_icon_fileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kk_icon_fileImage.png; sourceTree = "<group>"; };
 		9E646D1C73DD2C0F8042512D /* Pods-KKFileBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKFileBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F5F03A97F1EE216AA25734 /* KKFileBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKFileBrowser.podspec; path = ../KKFileBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBAB99D88328D1A7F0F79C5E /* Pods_KKFileBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKFileBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +129,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				8F152B4326BE77010036DA7C /* Temp */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for KKFileBrowser */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -179,6 +216,42 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8F152B4326BE77010036DA7C /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				8F48A50A26C3D4B0006F9F37 /* resources */,
+				8F152B4826BE79450036DA7C /* KKFileBrowserInfo.h */,
+				8F152B4926BE79450036DA7C /* KKFileBrowserInfo.m */,
+				8F48A4F526C3B1D0006F9F37 /* NSString+KKFileBrowser.h */,
+				8F48A4F626C3B1D0006F9F37 /* NSString+KKFileBrowser.m */,
+				8F152B4B26BE87560036DA7C /* KKFileBrowserCollectionViewCell.h */,
+				8F152B4C26BE87560036DA7C /* KKFileBrowserCollectionViewCell.m */,
+				8F152B4426BE783A0036DA7C /* KKFileDirectoryViewController.h */,
+				8F152B4526BE783A0036DA7C /* KKFileDirectoryViewController.m */,
+				8F48A4F226C3B092006F9F37 /* KKFileListViewController.h */,
+				8F48A4F326C3B092006F9F37 /* KKFileListViewController.m */,
+				8F47EF6D26C3EF7300A9B701 /* KKQLPreviewController.h */,
+				8F47EF6E26C3EF7300A9B701 /* KKQLPreviewController.m */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		8F48A50A26C3D4B0006F9F37 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F48A4FA26C3D4AC006F9F37 /* kk_icon_fileDic.png */,
+				8F48A50126C3D4AD006F9F37 /* kk_icon_fileImage.png */,
+				8F48A4FD26C3D4AC006F9F37 /* kk_icon_fileMusic.png */,
+				8F48A4FF26C3D4AD006F9F37 /* kk_icon_fileTxt.png */,
+				8F48A4FC26C3D4AC006F9F37 /* kk_icon_fileUnknow.png */,
+				8F48A50026C3D4AD006F9F37 /* kk_icon_fileVideo.png */,
+				8F48A4FB26C3D4AC006F9F37 /* kk_icon_fileWeb.png */,
+				8F48A4FE26C3D4AD006F9F37 /* kk_icon_fileZip.png */,
+				8F48A4F826C3BB1B006F9F37 /* kk_icon_right.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		E4F9718E4D7E4E18A9E237CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +309,11 @@
 			attributes = {
 				CLASSPREFIX = KK;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = chenghengsheng;
+				ORGANIZATIONNAME = Hansen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TB5KM6Y5DQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -268,10 +344,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F48A50426C3D4AD006F9F37 /* kk_icon_fileUnknow.png in Resources */,
+				8F48A50526C3D4AD006F9F37 /* kk_icon_fileMusic.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				8F48A50726C3D4AD006F9F37 /* kk_icon_fileTxt.png in Resources */,
+				8F48A50826C3D4AD006F9F37 /* kk_icon_fileVideo.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				8F48A50226C3D4AD006F9F37 /* kk_icon_fileDic.png in Resources */,
+				8F48A4F926C3BB1B006F9F37 /* kk_icon_right.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8F48A50626C3D4AD006F9F37 /* kk_icon_fileZip.png in Resources */,
+				8F48A50926C3D4AD006F9F37 /* kk_icon_fileImage.png in Resources */,
+				8F48A50326C3D4AD006F9F37 /* kk_icon_fileWeb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +418,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F48A4F726C3B1D0006F9F37 /* NSString+KKFileBrowser.m in Sources */,
+				8F47EF6F26C3EF7300A9B701 /* KKQLPreviewController.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
+				8F152B4626BE783A0036DA7C /* KKFileDirectoryViewController.m in Sources */,
+				8F152B4A26BE79450036DA7C /* KKFileBrowserInfo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8F152B4D26BE87560036DA7C /* KKFileBrowserCollectionViewCell.m in Sources */,
+				8F48A4F426C3B092006F9F37 /* KKFileListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,7 +542,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -463,6 +554,7 @@
 			baseConfigurationReference = 9E646D1C73DD2C0F8042512D /* Pods-KKFileBrowser_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB5KM6Y5DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKFileBrowser/KKFileBrowser-Prefix.pch";
 				INFOPLIST_FILE = "KKFileBrowser/KKFileBrowser-Info.plist";
@@ -479,6 +571,7 @@
 			baseConfigurationReference = 8A854401CE36C49BF9552CEC /* Pods-KKFileBrowser_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TB5KM6Y5DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKFileBrowser/KKFileBrowser-Prefix.pch";
 				INFOPLIST_FILE = "KKFileBrowser/KKFileBrowser-Info.plist";
