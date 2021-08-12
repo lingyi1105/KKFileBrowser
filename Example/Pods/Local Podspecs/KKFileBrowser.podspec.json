@@ -19,6 +19,16 @@
     "ios": "9.0"
   },
   "source_files": "KKFileBrowser/Classes/**/*",
+  "resource_bundles": {
+    "KKFileBrowser": [
+      "KKFileBrowser/Assets/*"
+    ]
+  },
+  "public_header_files": [
+    "KKFileBrowser/Classes/KKFileBrowser.h",
+    "KKFileBrowser/Classes/KKFileBrowserInfo.h",
+    "KKFileBrowser/Classes/KKFileDirectoryViewController.h"
+  ],
   "dependencies": {
     "FMDB": [
 

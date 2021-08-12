@@ -8,6 +8,7 @@
 
 #import "KKFileBrowserCollectionViewCell.h"
 #import "NSString+KKFileBrowser.h"
+#import "UIImage+KKFileBrowser.h"
 
 @interface KKFileBrowserCollectionViewCell ()
 
@@ -67,7 +68,8 @@
 - (void)setCellModel:(KKFileBrowserInfo *)cellModel{
     _cellModel = cellModel;
     self.titleLabel.text = cellModel.fileName?:@"";
-    self.rightImageView.image = [UIImage imageNamed:@"kk_icon_right"];
+    UIImage *rightImage = [UIImage kk_fileBrowserBundleImageNamed:@"kk_icon_right.png"];
+    self.rightImageView.image = rightImage;
     self.rightLabel.text = cellModel.fileSize?:@"";
     //
     NSFileManager *manager = [NSFileManager defaultManager];
@@ -172,9 +174,9 @@
     _cellModel = cellModel;
     self.titleLabel.text = cellModel.fileName;
     self.detailLabel.text = cellModel.fileSize?:@"";
-    UIImage *defaultImage = [UIImage imageNamed:@"kk_icon_fileDic"];
+    UIImage *defaultImage = [UIImage kk_fileBrowserBundleImageNamed:@"kk_icon_fileDic.png"];
     if (cellModel.fileImageName.length > 0) {
-        [self.imageView setImage:[UIImage imageNamed:cellModel.fileImageName]];
+        [self.imageView setImage:[UIImage kk_fileBrowserBundleImageNamed:cellModel.fileImageName]];
     }else{
         [self.imageView setImage:defaultImage];
     }
@@ -212,4 +214,3 @@
 }
 
 @end
-

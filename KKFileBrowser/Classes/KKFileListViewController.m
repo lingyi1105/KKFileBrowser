@@ -105,25 +105,25 @@ NSString *const KNSUserDefaultsFileBrowserStyle = @"KNSUserDefaultsFileBrowserSt
             NSString *pathExtension = [currentPath pathExtension];
             if ([[NSString fileZips] containsObject:pathExtension]) {
                 //压缩包
-                imageName = @"kk_icon_fileZip";
+                imageName = @"kk_icon_fileZip.png";
             }else if ([[NSString fileVideo] containsObject:pathExtension]) {
                 //视频
-                imageName = @"kk_icon_fileVideo";
+                imageName = @"kk_icon_fileVideo.png";
             }else if ([[NSString fileImages] containsObject:pathExtension]) {
                 //图片
-                imageName = @"kk_icon_fileImage";
+                imageName = @"kk_icon_fileImage.png";
             }else if ([[NSString fileMusics] containsObject:pathExtension]) {
                 //音乐
-                imageName = @"kk_icon_fileMusic";
+                imageName = @"kk_icon_fileMusic.png";
             }else if ([[NSString fileArchives] containsObject:pathExtension]) {
                 //文档
-                imageName = @"kk_icon_fileTxt";
+                imageName = @"kk_icon_fileTxt.png";
             }else if ([[NSString fileWeb] containsObject:pathExtension]) {
                 //文档
-                imageName = @"kk_icon_fileWeb";
+                imageName = @"kk_icon_fileWeb.png";
             }else {
                 //未知类型
-                imageName = @"kk_icon_fileUnknow";
+                imageName = @"kk_icon_fileUnknow.png";
             }
         }
         KKFileBrowserInfo *element = [[KKFileBrowserInfo alloc] init];

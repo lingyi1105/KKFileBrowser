@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "KKFileBrowser.h"
+#import "KKFileBrowserInfo.h"
+#import "KKFileDirectoryViewController.h"
 
 FOUNDATION_EXPORT double KKFileBrowserVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKFileBrowserVersionString[];

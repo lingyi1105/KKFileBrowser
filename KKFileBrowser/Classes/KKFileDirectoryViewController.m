@@ -44,6 +44,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.title = @"文件夹目录";
+    NSLog(@"%@",[NSBundle bundleForClass:[self class]]);
 }
 
 - (void)setupSubviews{

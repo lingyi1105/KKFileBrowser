@@ -32,11 +32,16 @@ Pod::Spec.new do |s|
 
   s.source_files = 'KKFileBrowser/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'KKFileBrowser' => ['KKFileBrowser/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'KKFileBrowser' => ['KKFileBrowser/Assets/*']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = [
+          'KKFileBrowser/Classes/KKFileBrowser.h',
+          'KKFileBrowser/Classes/KKFileBrowserInfo.h',
+          'KKFileBrowser/Classes/KKFileDirectoryViewController.h',
+  ]
+#  s.public_header_files =
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'FMDB'
    s.dependency 'MJExtension'
