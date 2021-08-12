@@ -7,6 +7,7 @@
 //
 
 #import "KKFileBrowserCollectionViewCell.h"
+#import "NSString+KKFileBrowser.h"
 
 @interface KKFileBrowserCollectionViewCell ()
 
@@ -75,7 +76,14 @@
     if (isDir) {
         self.rightImageView.hidden = NO;
     } else {
-        self.rightImageView.hidden = YES;
+        //判断文件是否是数据库
+        NSArray *dbSuffix = [NSString fileDatabase];
+        NSString *pathExtension = cellModel.filePath.pathExtension;
+        if ([dbSuffix containsObject:pathExtension]) {
+            self.rightImageView.hidden = NO;
+        } else {
+            self.rightImageView.hidden = YES;
+        }
     }
     [self layoutSubviews];
 }

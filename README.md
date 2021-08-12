@@ -1,5 +1,4 @@
 # KKFileBrowser
-<<<<<<< HEAD
 一个非常实用的文件浏览工具，可以预览图片，也可以可视化数据库。
 =======
 
@@ -25,9 +24,8 @@ pod 'KKFileBrowser'
 
 ## Author
 
-chenghengsheng, chenghs@shinemo.com
+chenghengsheng, 2534550460@qq.com
 
 ## License
 
 KKFileBrowser is available under the MIT license. See the LICENSE file for more info.
->>>>>>> 2fa69af (Initial commit)

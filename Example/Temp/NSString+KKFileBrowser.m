@@ -60,7 +60,8 @@
 
 //常见数据库集合db
 + (NSArray <NSString *> *)fileDatabase{
-    return @[@"DB",@"db",];
+    return @[@"DB",@"db",
+             @"sqlite",@"SQLITE",];
 }
 
 @end

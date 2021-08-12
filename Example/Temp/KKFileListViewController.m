@@ -11,6 +11,7 @@
 #import "KKFileBrowserCollectionViewCell.h"
 #import "NSString+KKFileBrowser.h"
 #import "KKQLPreviewController.h"
+#import "KKFileBrowserDatabaseTableViewController.h"
 
 NSString *const KNSUserDefaultsFileBrowserStyle = @"KNSUserDefaultsFileBrowserStyle";
 
@@ -236,12 +237,22 @@ NSString *const KNSUserDefaultsFileBrowserStyle = @"KNSUserDefaultsFileBrowserSt
         KKFileListViewController *vc = [[KKFileListViewController alloc] initWithPath:cellModel.filePath];
         [self.navigationController pushViewController:vc animated:YES];
     } else {
-        //TODO
-        KKQLPreviewController *quickLookVC = [[KKQLPreviewController alloc] init];
-        quickLookVC.delegate = self;
-        quickLookVC.dataSource = self;
-        quickLookVC.currentPreviewItemIndex = indexPath.row;
-        [self presentViewController:quickLookVC animated:YES completion:nil];
+        //判断文件是否是数据库
+        NSArray *dbSuffix = [NSString fileDatabase];
+        NSString *pathExtension = cellModel.filePath.pathExtension;
+        if ([dbSuffix containsObject:pathExtension]) {
+            //
+            KKFileBrowserDatabaseTableViewController *vc = [[KKFileBrowserDatabaseTableViewController alloc] init];
+            vc.path = cellModel.filePath;
+            [self.navigationController pushViewController:vc animated:YES];
+        } else {
+            //TODO
+            KKQLPreviewController *quickLookVC = [[KKQLPreviewController alloc] init];
+            quickLookVC.delegate = self;
+            quickLookVC.dataSource = self;
+            quickLookVC.currentPreviewItemIndex = indexPath.row;
+            [self presentViewController:quickLookVC animated:YES completion:nil];
+        }
     }
 }
 

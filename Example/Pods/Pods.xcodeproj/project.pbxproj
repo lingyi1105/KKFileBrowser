@@ -7,72 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54C1995817CBA207ED213FA9E3753B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5D0FA130FA16B04E2F9E4B2D786ADDFD /* KKFileBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0CE70195253C816DEF174BB121E26 /* KKFileBrowser-dummy.m */; };
-		B6497B32121111ACA1BC09DE6A1A301D /* KKFileBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D141C44BF226A0F3F566BF481DB202 /* KKFileBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE86AD025A1153C3B89E3C9ACB10A18C /* Pods-KKFileBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84024A285C81052A188B184CA103DD3F /* Pods-KKFileBrowser_Example-dummy.m */; };
-		E170EA0CD119B119B5886A9C9B2F7D04 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC2AACBEF0F485C8C0B17FA340BE3995 /* HansenReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7D47548529234BA7743BD8EFBF80B /* HansenReplaceMe.m */; };
-		F581230BB50DF3BC1A5B4F6C3DD6589E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04B51A26624BDF252E0C993ABCDA6B84 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B456EC4E649DF1AEA7D24E3D4F5678FF /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09AA87A8D8C4E29420386F7F9E6CFF88 /* KKFileBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0CE70195253C816DEF174BB121E26 /* KKFileBrowser-dummy.m */; };
+		0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C39BAAED423BD136F9084AB51E9E0 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628217C271B0DEEAC03BB3277347CE8 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E454ACF759667AE62DECBE9AB6F4C3 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D99F8A1B703409937E4B4D1A399DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
+		19B29F16E60307F0CC0685AE2A75525C /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		236197B4BD1DFB2311C0D14483056AB3 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */; };
+		29E1DD83E49D8FC7C40E96DF24D66CCB /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9C5B20ED87C175D27C00B1289EB957 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 07211D40E95E6CF4B7443AAAF8D0B18F /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B3534ECAAA072561F37EF09F7E7497 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432852C9652142017A7D803A032AA1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
+		4A3318278E979D3F957D66F30C159506 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5696AB88C84323CF3D3A667AC7DF2B0 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A815C4610A9D2A5A161E8EB941600F5 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C09F4BB4CFD79723CD04FC6433332C /* MJPropertyKey.m */; };
+		5C361F8B32C30CB5AB5B5F7FB0CB9AE3 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D8A48AA8FFFC5E9BCEE47B1C28AE7 /* MJPropertyType.m */; };
+		5DBFD0C414DD9A428FAF3DEE6101899F /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */; };
+		5E91FAF926D599FF6D3C4B221E53DB2A /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A69B8FC3D1450FE163C6DEDDB56F71 /* MJExtension-dummy.m */; };
+		6B18BBF174F14B534C9632370CF945D1 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */; };
+		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
+		6D7B02F51E6DD7F9B181623A65325E54 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */; };
+		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7461B48E8076687F8DD94C4FB35DEAE6 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B251DFAEDB20342E33C261F4F01678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
+		7528686B108014F414A689338D69517F /* HansenReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7D47548529234BA7743BD8EFBF80B /* HansenReplaceMe.m */; };
+		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */; };
+		8A4580355930924E91B577475EE15CC0 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92456538ED53282E371F2AE0121C9301 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996D5F12B9279A008C8838A64A2C5D11 /* Pods-KKFileBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84024A285C81052A188B184CA103DD3F /* Pods-KKFileBrowser_Example-dummy.m */; };
+		A42EFAAE0CA481AB234B234CF2D4C934 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */; };
+		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1DAF185EF288695599EE1E378D49F12 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D5EE174E9D40A2707E8D7B0FD136B /* NSObject+MJCoding.m */; };
+		B2840B6945785D66FD57D85E3A84E423 /* KKFileBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D141C44BF226A0F3F566BF481DB202 /* KKFileBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E4713CFAB6D46304FAD6BD2058A01752 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A6F88CC1C01DB4036719B63CE8DCE5 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6F1547407E58DF1FF2D2F2F65ED869 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */; };
+		D2BA4665FB3283BBA6F5494496DB1199 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB21F33CE9BBE1CCCACEF50C1F914D1D /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3D67133C5196DBFB9BD66ACF28BD19 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2D3FE3F54A341951B03B29F9367376 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F252A5340945ADECD135CE7C898B1E03 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */; };
+		FD1FB130F5604C0EE3F2F8393170DB35 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */; };
+		FDA1F38303A71ACE365D9B866B092786 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */; };
+		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C532F36648A49D97E8E212E420D5DE8 /* PBXContainerItemProxy */ = {
+		1123E98831BBA911167E8E059AEE4FC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6FC2FF5F92188774EE819AC8B7978F6E;
 			remoteInfo = KKFileBrowser;
 		};
+		257708B2855E78F9A2A7BF8BB47DB05F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		6A3396D197979DCFE9953D0D5D157FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		8B9EBF27A64DDB365A56985F3AA79D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		BA3D352465D10E052BC9E2EB72D6EB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01F6E9FA0F12C5F2092E9F9D4824C72D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		026D8A48AA8FFFC5E9BCEE47B1C28AE7 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		07211D40E95E6CF4B7443AAAF8D0B18F /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		14731F9903CA65ED9A79D6126D8316C8 /* KKFileBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFileBrowser.release.xcconfig; sourceTree = "<group>"; };
+		176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
 		255B02C53AE99EBE91CF8C37DB585234 /* KKFileBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-prefix.pch"; sourceTree = "<group>"; };
 		26F7D47548529234BA7743BD8EFBF80B /* HansenReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HansenReplaceMe.m; path = KKFileBrowser/Classes/HansenReplaceMe.m; sourceTree = "<group>"; };
 		27650FCAE91615B7FEA8B815F7037E5F /* Pods-KKFileBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKFileBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
 		3B411734AB7A81E330ACC580AE8B9FFC /* KKFileBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKFileBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4628217C271B0DEEAC03BB3277347CE8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		48B5FEB6509844201783EC3D9DA1DEF1 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		498B312D18D7CD3A31E892A0D81BF365 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		54B512B98254AE4DAA9296CC3E3FF6AE /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		5645651E3CB5FEC1721308B20B77DA2B /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		5A8BF182D8B1EBD231BF9FCCA398E2B8 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
 		5CDB646D9E1412A2C86E2AA71FEBC761 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EE6F0E81A5F94309B9AAE2582AE005F /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
+		5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		60359B58B4451A73D59F164230CF7691 /* Pods-KKFileBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFileBrowser_Example-Info.plist"; sourceTree = "<group>"; };
 		68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKFileBrowser_Example.framework; path = "Pods-KKFileBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		6E07CD55FEA32922C523DEADEDD8D513 /* Pods-KKFileBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKFileBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFileBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82A69B8FC3D1450FE163C6DEDDB56F71 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		84024A285C81052A188B184CA103DD3F /* Pods-KKFileBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKFileBrowser_Example-dummy.m"; sourceTree = "<group>"; };
+		873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		8C5E9A484FDA26ED568F3E3B504889CA /* KKFileBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKFileBrowser.modulemap; sourceTree = "<group>"; };
 		90D141C44BF226A0F3F566BF481DB202 /* KKFileBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-umbrella.h"; sourceTree = "<group>"; };
+		92456538ED53282E371F2AE0121C9301 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFileBrowser.framework; path = KKFileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		96AB5C399DB3CDE8EFB80DC5106EE814 /* Pods-KKFileBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKFileBrowser_Example.modulemap"; sourceTree = "<group>"; };
+		96C09F4BB4CFD79723CD04FC6433332C /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		976C39BAAED423BD136F9084AB51E9E0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFileBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB46AC76A086C7B6579F1F2F1B4A7652 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		AD2D3FE3F54A341951B03B29F9367376 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		B456EC4E649DF1AEA7D24E3D4F5678FF /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		BA12383B4392D13E96C800E1C795B4CE /* KKFileBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKFileBrowser-Info.plist"; sourceTree = "<group>"; };
 		BB07AF855D8637AD7B6522B05DF03EF5 /* KKFileBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFileBrowser.debug.xcconfig; sourceTree = "<group>"; };
+		BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFileBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
+		CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		CEB0CE70195253C816DEF174BB121E26 /* KKFileBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKFileBrowser-dummy.m"; sourceTree = "<group>"; };
+		D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		D1F71538AB189F687A69F5B4E691F5A3 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
+		D5696AB88C84323CF3D3A667AC7DF2B0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D57D5EE174E9D40A2707E8D7B0FD136B /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		DD337269188350922C6035B8CC5268E1 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		E4713CFAB6D46304FAD6BD2058A01752 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		F7CF600CE1D65172D389EA90A2838A27 /* Pods-KKFileBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFileBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		854A12FCEF0D7EB3124EA25294BE3B76 /* Frameworks */ = {
+		17153CD8DC331E354D9CD902122041EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F581230BB50DF3BC1A5B4F6C3DD6589E /* Foundation.framework in Frameworks */,
+				432852C9652142017A7D803A032AA1A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF82CDEDA0C657BF9EFB6B398C37C43B /* Frameworks */ = {
+		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C1995817CBA207ED213FA9E3753B5D /* Foundation.framework in Frameworks */,
+				6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0C22675A9C9149298F76BDE2899713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBFD0C414DD9A428FAF3DEE6101899F /* FMDB.framework in Frameworks */,
+				74B251DFAEDB20342E33C261F4F01678 /* Foundation.framework in Frameworks */,
+				6B18BBF174F14B534C9632370CF945D1 /* MJExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD6D65452F9C3CF64E3BBF21D223A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D99F8A1B703409937E4B4D1A399DC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046C02C60E946C0555299E732BD8E835 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B5C0C5FCAD36FEFB029F7E958CC9AB7 /* FMDB */,
+				83F075A19D67F2AE67C878E2FDD8D063 /* MJExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1325B8AD4BCBBD61C91CBEA575E6900E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,10 +236,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		334A26C0B02F74F237170F6BC9BE9B43 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				AB46AC76A086C7B6579F1F2F1B4A7652 /* MJExtension.modulemap */,
+				82A69B8FC3D1450FE163C6DEDDB56F71 /* MJExtension-dummy.m */,
+				54B512B98254AE4DAA9296CC3E3FF6AE /* MJExtension-Info.plist */,
+				48B5FEB6509844201783EC3D9DA1DEF1 /* MJExtension-prefix.pch */,
+				1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */,
+				5A8BF182D8B1EBD231BF9FCCA398E2B8 /* MJExtension.debug.xcconfig */,
+				358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		4B5C0C5FCAD36FEFB029F7E958CC9AB7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5466FA72B80DBD902B8555DD42091EF7 /* standard */,
+				DB7B939A07F3976627002425DC2C13BE /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5466FA72B80DBD902B8555DD42091EF7 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				07211D40E95E6CF4B7443AAAF8D0B18F /* FMDatabase.h */,
+				08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */,
+				D5696AB88C84323CF3D3A667AC7DF2B0 /* FMDatabaseAdditions.h */,
+				976C39BAAED423BD136F9084AB51E9E0 /* FMDatabaseAdditions.m */,
+				080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */,
+				9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */,
+				A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */,
+				4628217C271B0DEEAC03BB3277347CE8 /* FMDatabaseQueue.m */,
+				CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */,
+				E4713CFAB6D46304FAD6BD2058A01752 /* FMResultSet.h */,
+				0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		6AC97B92101582F61236F73C275A2B12 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -107,13 +295,34 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		75E640C28C5F6C300EC32465F7EEFC31 /* Products */ = {
+		83F075A19D67F2AE67C878E2FDD8D063 /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */,
-				68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */,
+				B456EC4E649DF1AEA7D24E3D4F5678FF /* MJExtension.h */,
+				AD2D3FE3F54A341951B03B29F9367376 /* MJExtensionConst.h */,
+				1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */,
+				2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */,
+				4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */,
+				92456538ED53282E371F2AE0121C9301 /* MJProperty.h */,
+				6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */,
+				69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */,
+				96C09F4BB4CFD79723CD04FC6433332C /* MJPropertyKey.m */,
+				1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */,
+				026D8A48AA8FFFC5E9BCEE47B1C28AE7 /* MJPropertyType.m */,
+				CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */,
+				D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */,
+				DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */,
+				D57D5EE174E9D40A2707E8D7B0FD136B /* NSObject+MJCoding.m */,
+				5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */,
+				BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */,
+				176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */,
+				10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */,
+				873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */,
+				219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */,
+				334A26C0B02F74F237170F6BC9BE9B43 /* Support Files */,
 			);
-			name = Products;
+			name = MJExtension;
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		85D3EC9CE798AFB95F48183C1138C543 /* Pods-KKFileBrowser_Example */ = {
@@ -131,6 +340,16 @@
 			);
 			name = "Pods-KKFileBrowser_Example";
 			path = "Target Support Files/Pods-KKFileBrowser_Example";
+			sourceTree = "<group>";
+		};
+		9BC995E2EE38150FF4F1C480AD1C7F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */,
+				A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */,
+				6AC97B92101582F61236F73C275A2B12 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9C8D21C8732B6F97FC8CFF3C39452492 /* Support Files */ = {
@@ -159,78 +378,170 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		CE004C7C0B17BA9149F7B582C1360A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */,
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */,
+				68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				74C2E6FC5E70C520D0B5C9426ECAD25A /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				75E640C28C5F6C300EC32465F7EEFC31 /* Products */,
+				9BC995E2EE38150FF4F1C480AD1C7F39 /* Frameworks */,
+				046C02C60E946C0555299E732BD8E835 /* Pods */,
+				CE004C7C0B17BA9149F7B582C1360A02 /* Products */,
 				324EFC7E0D4A584DC2B318689C176156 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DB7B939A07F3976627002425DC2C13BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				5645651E3CB5FEC1721308B20B77DA2B /* FMDB.modulemap */,
+				DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */,
+				5EE6F0E81A5F94309B9AAE2582AE005F /* FMDB-Info.plist */,
+				498B312D18D7CD3A31E892A0D81BF365 /* FMDB-prefix.pch */,
+				95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */,
+				DD337269188350922C6035B8CC5268E1 /* FMDB.debug.xcconfig */,
+				D1F71538AB189F687A69F5B4E691F5A3 /* FMDB.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F05AD8B44EFC803FBC5BBB5E87C0336 /* Headers */ = {
+		019A8A1C3C78C1A5B3F7940484EBC15F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E170EA0CD119B119B5886A9C9B2F7D04 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */,
+				EB21F33CE9BBE1CCCACEF50C1F914D1D /* MJExtension-umbrella.h in Headers */,
+				04B51A26624BDF252E0C993ABCDA6B84 /* MJExtension.h in Headers */,
+				EB3D67133C5196DBFB9BD66ACF28BD19 /* MJExtensionConst.h in Headers */,
+				19B29F16E60307F0CC0685AE2A75525C /* MJFoundation.h in Headers */,
+				8A4580355930924E91B577475EE15CC0 /* MJProperty.h in Headers */,
+				11E454ACF759667AE62DECBE9AB6F4C3 /* MJPropertyKey.h in Headers */,
+				7461B48E8076687F8DD94C4FB35DEAE6 /* MJPropertyType.h in Headers */,
+				41B3534ECAAA072561F37EF09F7E7497 /* NSObject+MJClass.h in Headers */,
+				4A3318278E979D3F957D66F30C159506 /* NSObject+MJCoding.h in Headers */,
+				29E1DD83E49D8FC7C40E96DF24D66CCB /* NSObject+MJKeyValue.h in Headers */,
+				C8A6F88CC1C01DB4036719B63CE8DCE5 /* NSObject+MJProperty.h in Headers */,
+				2A9C5B20ED87C175D27C00B1289EB957 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB27D002DC8D061DE8EB1D93E3F35D1D /* Headers */ = {
+		51CC5E59B079FABF699B6541023DDF2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6497B32121111ACA1BC09DE6A1A301D /* KKFileBrowser-umbrella.h in Headers */,
+				B2840B6945785D66FD57D85E3A84E423 /* KKFileBrowser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */,
+				538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */,
+				0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */,
+				7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */,
+				219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */,
+				A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */,
+				BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B71E5F65DB478DBBDDC72920758CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BA4665FB3283BBA6F5494496DB1199 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */ = {
+		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA45231084AAEFAF584A6B3158D442DD /* Build configuration list for PBXNativeTarget "KKFileBrowser" */;
+			buildConfigurationList = 396C1C8B041B0BDD202251E111453162 /* Build configuration list for PBXNativeTarget "MJExtension" */;
 			buildPhases = (
-				DB27D002DC8D061DE8EB1D93E3F35D1D /* Headers */,
-				EC458D15148EEE06FB2A25E6B7C20DAF /* Sources */,
-				CF82CDEDA0C657BF9EFB6B398C37C43B /* Frameworks */,
-				156BE96296CC34E8F777A624685BD1DF /* Resources */,
+				019A8A1C3C78C1A5B3F7940484EBC15F /* Headers */,
+				7555DF7F9F92C3EE50F65A2E045C70C3 /* Sources */,
+				17153CD8DC331E354D9CD902122041EA /* Frameworks */,
+				0A1133C8EAD5531A65FB6DA6D7257401 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B71B15A295EECF0E7049024B90B89BF /* Build configuration list for PBXNativeTarget "KKFileBrowser" */;
+			buildPhases = (
+				51CC5E59B079FABF699B6541023DDF2B /* Headers */,
+				D59CF6DEA1E17003F6631ECDA362C50B /* Sources */,
+				CA0C22675A9C9149298F76BDE2899713 /* Frameworks */,
+				5545481ECC7F7B61F55495C0EC710CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522E1AC2FC774B61679C6626400928DB /* PBXTargetDependency */,
+				A6554DDF6F1B12B5F446797A61B1F72F /* PBXTargetDependency */,
 			);
 			name = KKFileBrowser;
 			productName = KKFileBrowser;
 			productReference = 9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		886A94F783E938CD9D71877B978D6521 /* Pods-KKFileBrowser_Example */ = {
+		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4375299BBE80B4263FEEF5DBDA1FFDC /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */;
+			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				0F05AD8B44EFC803FBC5BBB5E87C0336 /* Headers */,
-				70607F2505B91682C8E806257A342E4F /* Sources */,
-				854A12FCEF0D7EB3124EA25294BE3B76 /* Frameworks */,
-				13F7C30FE72680A19449245569D13025 /* Resources */,
+				DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */,
+				7E0D56167C29831E3033100E4A70F3B9 /* Sources */,
+				41E857D338F96D89E73F6E28241F0A8B /* Frameworks */,
+				2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				436EF6A41B6658B602EF5FF5B3FB9E01 /* PBXTargetDependency */,
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		886A94F783E938CD9D71877B978D6521 /* Pods-KKFileBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDD156DEA25916893A8BC458B23FEF9 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */;
+			buildPhases = (
+				E6B71E5F65DB478DBBDDC72920758CBC /* Headers */,
+				5F0024547AC64AF187BA2EDBEF0BE628 /* Sources */,
+				FEAD6D65452F9C3CF64E3BBF21D223A6 /* Frameworks */,
+				B3B8C5FA29660E6314EF2EB180B6FE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F956F798A84019E3AD6C3F5915C2FA /* PBXTargetDependency */,
+				6BADC9AE3967D47E33ED157E889EAD34 /* PBXTargetDependency */,
+				D2579EA061886626575338226DF168EC /* PBXTargetDependency */,
 			);
 			name = "Pods-KKFileBrowser_Example";
 			productName = "Pods-KKFileBrowser_Example";
@@ -255,25 +566,41 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 75E640C28C5F6C300EC32465F7EEFC31 /* Products */;
+			productRefGroup = CE004C7C0B17BA9149F7B582C1360A02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
 				6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */,
+				4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */,
 				886A94F783E938CD9D71877B978D6521 /* Pods-KKFileBrowser_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13F7C30FE72680A19449245569D13025 /* Resources */ = {
+		0A1133C8EAD5531A65FB6DA6D7257401 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		156BE96296CC34E8F777A624685BD1DF /* Resources */ = {
+		2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5545481ECC7F7B61F55495C0EC710CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B8C5FA29660E6314EF2EB180B6FE83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,38 +610,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		70607F2505B91682C8E806257A342E4F /* Sources */ = {
+		5F0024547AC64AF187BA2EDBEF0BE628 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE86AD025A1153C3B89E3C9ACB10A18C /* Pods-KKFileBrowser_Example-dummy.m in Sources */,
+				996D5F12B9279A008C8838A64A2C5D11 /* Pods-KKFileBrowser_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC458D15148EEE06FB2A25E6B7C20DAF /* Sources */ = {
+		7555DF7F9F92C3EE50F65A2E045C70C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2AACBEF0F485C8C0B17FA340BE3995 /* HansenReplaceMe.m in Sources */,
-				5D0FA130FA16B04E2F9E4B2D786ADDFD /* KKFileBrowser-dummy.m in Sources */,
+				5E91FAF926D599FF6D3C4B221E53DB2A /* MJExtension-dummy.m in Sources */,
+				FD1FB130F5604C0EE3F2F8393170DB35 /* MJExtensionConst.m in Sources */,
+				CC6F1547407E58DF1FF2D2F2F65ED869 /* MJFoundation.m in Sources */,
+				6D7B02F51E6DD7F9B181623A65325E54 /* MJProperty.m in Sources */,
+				5A815C4610A9D2A5A161E8EB941600F5 /* MJPropertyKey.m in Sources */,
+				5C361F8B32C30CB5AB5B5F7FB0CB9AE3 /* MJPropertyType.m in Sources */,
+				236197B4BD1DFB2311C0D14483056AB3 /* NSObject+MJClass.m in Sources */,
+				B1DAF185EF288695599EE1E378D49F12 /* NSObject+MJCoding.m in Sources */,
+				F252A5340945ADECD135CE7C898B1E03 /* NSObject+MJKeyValue.m in Sources */,
+				A42EFAAE0CA481AB234B234CF2D4C934 /* NSObject+MJProperty.m in Sources */,
+				FDA1F38303A71ACE365D9B866B092786 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D56167C29831E3033100E4A70F3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */,
+				0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */,
+				0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */,
+				0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */,
+				7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */,
+				FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59CF6DEA1E17003F6631ECDA362C50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7528686B108014F414A689338D69517F /* HansenReplaceMe.m in Sources */,
+				09AA87A8D8C4E29420386F7F9E6CFF88 /* KKFileBrowser-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		436EF6A41B6658B602EF5FF5B3FB9E01 /* PBXTargetDependency */ = {
+		522E1AC2FC774B61679C6626400928DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = BA3D352465D10E052BC9E2EB72D6EB36 /* PBXContainerItemProxy */;
+		};
+		6BADC9AE3967D47E33ED157E889EAD34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKFileBrowser;
 			target = 6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */;
-			targetProxy = 2C532F36648A49D97E8E212E420D5DE8 /* PBXContainerItemProxy */;
+			targetProxy = 1123E98831BBA911167E8E059AEE4FC9 /* PBXContainerItemProxy */;
+		};
+		A6554DDF6F1B12B5F446797A61B1F72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 8B9EBF27A64DDB365A56985F3AA79D4E /* PBXContainerItemProxy */;
+		};
+		D2579EA061886626575338226DF168EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 257708B2855E78F9A2A7BF8BB47DB05F /* PBXContainerItemProxy */;
+		};
+		F2F956F798A84019E3AD6C3F5915C2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 6A3396D197979DCFE9953D0D5D157FB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BDF94E5A63DABB1C8B6A88681CC38C5 /* Release */ = {
+		1D49F4142059CAF35D5360EC4C1798EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14731F9903CA65ED9A79D6126D8316C8 /* KKFileBrowser.release.xcconfig */;
+			baseConfigurationReference = 5A8BF182D8B1EBD231BF9FCCA398E2B8 /* MJExtension.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -324,14 +706,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KKFileBrowser/KKFileBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser.modulemap";
-				PRODUCT_MODULE_NAME = KKFileBrowser;
-				PRODUCT_NAME = KKFileBrowser;
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		228AFBC6B371340B8F446A646AA8CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -409,9 +821,9 @@
 			};
 			name = Debug;
 		};
-		BB605BADE71AA5802891C5AF6C1B1D88 /* Debug */ = {
+		2C85DDCE4A8BDAAA909AC533DF465ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB07AF855D8637AD7B6522B05DF03EF5 /* KKFileBrowser.debug.xcconfig */;
+			baseConfigurationReference = 14731F9903CA65ED9A79D6126D8316C8 /* KKFileBrowser.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -434,10 +846,137 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA9605C6B67FAD3E695EECF4CEF13BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD337269188350922C6035B8CC5268E1 /* FMDB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5A3AEBAC12797BE9894E6C6228188B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62CF331F8CDAA4C1A61E89A2EC4008FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F71538AB189F687A69F5B4E691F5A3 /* FMDB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EBE7444AD7A029D8F16BE9161304880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -501,11 +1040,10 @@
 			};
 			name = Release;
 		};
-		DBD406BB46C59D6A8D0392AEECE0E3C6 /* Debug */ = {
+		CE2D28C0C411C0407FEBFD5D1CAFAA4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */;
+			baseConfigurationReference = BB07AF855D8637AD7B6522B05DF03EF5 /* KKFileBrowser.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -514,61 +1052,36 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KKFileBrowser/KKFileBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser.modulemap";
+				PRODUCT_MODULE_NAME = KKFileBrowser;
+				PRODUCT_NAME = KKFileBrowser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		ECDB1E4A6A98A24851D8F4C66CC6C47F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		396C1C8B041B0BDD202251E111453162 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D49F4142059CAF35D5360EC4C1798EE /* Debug */,
+				228AFBC6B371340B8F446A646AA8CA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,20 +1091,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4375299BBE80B4263FEEF5DBDA1FFDC /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */ = {
+		5DDD156DEA25916893A8BC458B23FEF9 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBD406BB46C59D6A8D0392AEECE0E3C6 /* Debug */,
-				ECDB1E4A6A98A24851D8F4C66CC6C47F /* Release */,
+				5A3AEBAC12797BE9894E6C6228188B6B /* Debug */,
+				6EBE7444AD7A029D8F16BE9161304880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA45231084AAEFAF584A6B3158D442DD /* Build configuration list for PBXNativeTarget "KKFileBrowser" */ = {
+		7B71B15A295EECF0E7049024B90B89BF /* Build configuration list for PBXNativeTarget "KKFileBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB605BADE71AA5802891C5AF6C1B1D88 /* Debug */,
-				1BDF94E5A63DABB1C8B6A88681CC38C5 /* Release */,
+				CE2D28C0C411C0407FEBFD5D1CAFAA4A /* Debug */,
+				2C85DDCE4A8BDAAA909AC533DF465ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9605C6B67FAD3E695EECF4CEF13BB /* Debug */,
+				62CF331F8CDAA4C1A61E89A2EC4008FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
