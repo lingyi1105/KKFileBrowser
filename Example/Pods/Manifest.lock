@@ -2,7 +2,7 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - KKFileBrowser (1.0.2):
+  - KKFileBrowser (1.0.6):
     - FMDB
     - MJExtension
   - MJExtension (3.3.0)
@@ -21,9 +21,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  KKFileBrowser: d38b936a79a4987e9986d5a1757b8738de0a36ed
+  KKFileBrowser: aaa2e27edbeca455a9fd37930024edeebe7ac718
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
 
-PODFILE CHECKSUM: eb92f5c063c4c1df52072c9c554fb713da9543d3
+PODFILE CHECKSUM: 9acbf2b09f72fdb12857892fe064d8402231d720
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.14.3

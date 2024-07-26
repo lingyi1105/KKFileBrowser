@@ -22,6 +22,8 @@
 @property (nonatomic, strong) KKFileBrowserDatabase *database;
 @property (nonatomic, copy) NSArray *rowWidths;
 
+@property (nonatomic, strong) KKFileBrowserDatabaseItemCell *headerView;
+
 @end
 
 @implementation KKFileBrowserDatabaseItemViewController
@@ -141,7 +143,7 @@
 }
 
 #pragma mark - UITableViewDataSource
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     KKFileBrowserDatabaseItemCellModel *cellModel = self.datum[indexPath.row];
     cellModel.rowWidths = self.rowWidths;
     KKFileBrowserDatabaseItemCell *cell = [tableView dequeueReusableCellWithIdentifier:@"KKFileBrowserDatabaseItemCell"];
@@ -154,6 +156,7 @@
             tc.contentOffset = scrollView.contentOffset;
         }
         weakSelf.contentOffset = scrollView.contentOffset;
+        weakSelf.headerView.contentOffset = scrollView.contentOffset;
     };
     cell.whenSelectItemClick = ^(KKFileBrowserDatabaseItemCell *cell, NSIndexPath *collectionViewCellIndexPath) {
         [weakSelf tableView:tableView didSelectRowAtIndexPath:indexPath];
@@ -164,11 +167,42 @@
     }else{
         cell.collectionView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     }
+    cell.hidden = indexPath.row == 0;
     return cell;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row != 0) {
+        return 40;
+    }
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.datum.count;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    if (self.datum.count == 0) {
+        return [[UIView alloc] init];
+    }
+    KKFileBrowserDatabaseItemCellModel *cellModel = self.datum[0];
+    KKFileBrowserDatabaseItemCell *view = [[KKFileBrowserDatabaseItemCell alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 40)];
+    view.backgroundColor = [UIColor.lightGrayColor colorWithAlphaComponent:0.95];
+    view.cellModel = cellModel;
+    self.headerView = view;
+    
+    __weak typeof(self) weakSelf = self;
+    view.whenScrollViewDidScroll = ^(UIScrollView *scrollView) {
+        //连动滚动
+        NSArray *cells = [weakSelf.tableView visibleCells];
+        for (KKFileBrowserDatabaseItemCell *tc in cells) {
+            tc.contentOffset = scrollView.contentOffset;
+        }
+        weakSelf.contentOffset = scrollView.contentOffset;
+    };
+    
+    return view;
 }
 
 #pragma mark - UITableViewDelegate

@@ -7,131 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D941507B60D7C5254BC02603AB6930 /* kk_icon_fileMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5C09B53AE407F00F0C7C8207F4D56C /* kk_icon_fileMusic.png */; };
-		0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		08EC3F75E83F824BFA71F55056FD45B3 /* KKFileBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260AE0193CC1259C61CA80230FA14A /* KKFileBrowserCollectionViewCell.m */; };
-		09E6C72208278D211BB0059DF653917E /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */; };
-		0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C39BAAED423BD136F9084AB51E9E0 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628217C271B0DEEAC03BB3277347CE8 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0D39B2CEDDFE16E1D654E39F1591D493 /* KKQLPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 741C5FF12B95FBFFCE744A29058E1C32 /* KKQLPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1075051F6F8D6564324292F9E2E7CC29 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12D99F8A1B703409937E4B4D1A399DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
-		1F036DB291EBC3C98FDBD32A4F3A9BB4 /* KKFileBrowserCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F84A7349303279DA2F14CF05480E31C1 /* KKFileBrowserCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2628B81C4E3DBA3CAC0095246B56BECD /* KKFileBrowserDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF3AC4801F4B8B265D675A03CF68289 /* KKFileBrowserDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3181DEAB70F5DAA7C7412F962677694F /* KKQLPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F26D47A08FEBD6EE041BA1B0F5ADB05 /* KKQLPreviewController.m */; };
-		3309AFDC2ED4BD1489366F3ED045665F /* KKFileBrowserDatabaseItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D900473D35E33967EAF1E6D4141DDC /* KKFileBrowserDatabaseItemCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3551882FB9D5B1FB59364082E7FDEED9 /* kk_icon_fileZip.png in Resources */ = {isa = PBXBuildFile; fileRef = 644F1FA75B85F897572F9646B5B9D0B7 /* kk_icon_fileZip.png */; };
-		36141474BF9B43ECC5B0DEE251DAE793 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D5EE174E9D40A2707E8D7B0FD136B /* NSObject+MJCoding.m */; };
-		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 07211D40E95E6CF4B7443AAAF8D0B18F /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37CF2275AC9F8E63AE7316B6FCFA7CD5 /* UIImage+KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A655E2D3AF525A074728E9756CB11247 /* UIImage+KKFileBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C160190F7D9FDD00A8E6DCB6E5CDF10 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A69B8FC3D1450FE163C6DEDDB56F71 /* MJExtension-dummy.m */; };
-		443B20B4FED3D5E8619887CBD9F0F4AE /* KKFileBrowserDatabaseColumnModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D43E35C8BE7FA28ECE905D59C823163B /* KKFileBrowserDatabaseColumnModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45AD74A128DC42CBD171509DA9C8A66B /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */; };
-		47159B86379988B8366DF9970586A40D /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B01881E434501559FA3E25D35B14D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
-		4C73526800D76C93E1F9885BC7F78E06 /* kk_icon_fileWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E2A5FB7321E0F7796AEDAF4F5F7F42 /* kk_icon_fileWeb.png */; };
-		4E0CF64370A27651D4926C3209404050 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */; };
-		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5696AB88C84323CF3D3A667AC7DF2B0 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		552A6B597FF881F8CC35B235EBF9519E /* KKFileBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */; };
-		591467CC7B58AAC392E3D124B2869E68 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2D3FE3F54A341951B03B29F9367376 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		634D7969CFE3F46AE59F5031BF692758 /* kk_icon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = C2228852AC32A691DEBF8231C8D338AF /* kk_icon_right.png */; };
-		64FC7F5B4F4F9B7BAAF01530C240379B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D8A48AA8FFFC5E9BCEE47B1C28AE7 /* MJPropertyType.m */; };
-		6713B0DC2A3F99A804636E998099BDB1 /* KKFileBrowserDatabaseItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BEA42BDDF46B965EFF931492D9E733 /* KKFileBrowserDatabaseItemCell.m */; };
-		67A43AF819A434EB4E699702B2573321 /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
-		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74C6FD1DD2EA900801CE4697652101D5 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */; };
-		7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */; };
-		767D293C87E421B948434F791F4F0192 /* kk_icon_fileTxt.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF7D8D8DA3FAE18F80A998D8DCDB48 /* kk_icon_fileTxt.png */; };
-		76856D452328904F6381ADB34682A0A5 /* kk_icon_fileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */; };
-		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */; };
-		85ECA6E0E932F3C5D050136C8BA43A81 /* KKFileBrowserDatabaseItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A4EEB3BF5C02BDE81C099DA44A47C /* KKFileBrowserDatabaseItemViewController.m */; };
-		8709683BBA252479B78155C5887A5290 /* KKFileBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9652FDE152038479C5E2F039B8FACA05 /* KKFileBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886861C6D7C5A4CB8294682A76831641 /* KKFileListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88943ADCA322857A9325BB8D8F5628C3 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ACD3F249DD69BF590171EBA43E87AA1 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9014B25BE28259FF2739BE7442C5EE19 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */; };
-		94B7F549BBF75DDB63A1523188CE31D2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */; };
-		95588833C6C1CEAF29E562D5A5987408 /* KKFileBrowserDatabaseItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF22CBE8E84AC0A35CFA89D86A3F9FC /* KKFileBrowserDatabaseItemViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		996D5F12B9279A008C8838A64A2C5D11 /* Pods-KKFileBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84024A285C81052A188B184CA103DD3F /* Pods-KKFileBrowser_Example-dummy.m */; };
-		99B1BA803DC5E2E956421592C7C11E7F /* KKFileBrowserDatabaseColumnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC654FB8FCE0910F9EC6FD462E843C5D /* KKFileBrowserDatabaseColumnModel.m */; };
-		9C7B0BE60F3F3B094BD5058CCCC001FC /* KKFileBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CFB556D1103F19CE10F6F3F325D87A /* KKFileBrowser-dummy.m */; };
-		9CCB1BFAE5ACEF4AF19BCC21EE2D40B6 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FC521EFB8FBB728B21879362275BE3F /* KKFileBrowserDatabaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE05318AFDC9B1686B16B5DA4A4596 /* KKFileBrowserDatabaseTableViewController.m */; };
-		A2318986CCAB6210790168CAA4E3081B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */; };
-		A6E9FC646200E095B23AC5A332866773 /* NSString+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E41575921295BB8968EF7A0BBFDEB176 /* NSString+KKFileBrowser.m */; };
-		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA4704734A14ADB0C89B06468FB1CC0B /* KKFileBrowserDatabaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBDAA4761D8C203FE238F80F935639F /* KKFileBrowserDatabaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD15143C8DF0C5B9357610324E224C6E /* kk_icon_fileVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = B34946766A4E7050428FCBE5F40D5D8B /* kk_icon_fileVideo.png */; };
-		B93CDF3477135647BCF4010DAA4290B4 /* KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E7AA49AC6D38FCF3ACDBCD1E82F508 /* KKFileBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E4713CFAB6D46304FAD6BD2058A01752 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1062BA4B0835899B90F7E9B1C86937D /* KKFileBrowserDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19AAA6409353EB1EDF4CC30FE58CF /* KKFileBrowserDatabase.m */; };
-		C409C3E710869925FC1E6AA10F9B991E /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92456538ED53282E371F2AE0121C9301 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7CD766869CDEFE7B7285B45D5D755BA /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D01176F28177C65FC2F2C3C7E6112B5E /* KKFileDirectoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA421ADCA3C7084058BDB579287A0D3E /* KKFileDirectoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1B42CF1FC265652D9F9E65E0B2A5E1C /* kk_icon_fileUnknow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEAFFE74F097F5E1B2BAEE06579318A /* kk_icon_fileUnknow.png */; };
-		D2BA4665FB3283BBA6F5494496DB1199 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E28E465FE35D50AD2F2E9D0FE8EF81 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B456EC4E649DF1AEA7D24E3D4F5678FF /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8986498BA41A7F6DF1B5892DE401CB2 /* KKFileDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A1410CDF70F964D733161404BEECA /* KKFileDirectoryViewController.m */; };
-		EBD52D48DF0E996E947B26B222C09B55 /* NSString+KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 365D23B73E637CD1A9A248BC3D0BB458 /* NSString+KKFileBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ECAD055126E3388F7E8C14464C1CE332 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED4EC022569B27ED082BF43FBEE93CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
-		EEB5AC41695C215213714B02B88153EB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */; };
-		EF54E38F7007B55C3BB31153F9D5FCCE /* KKFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0382A65A8B941C4CD9358A56D050BF6A /* KKFileListViewController.m */; };
-		F10ACE62CEE23E112222EF161A5C300C /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C09F4BB4CFD79723CD04FC6433332C /* MJPropertyKey.m */; };
-		F36DBED0B82F71D656F4F88E2395CD05 /* kk_icon_fileDic.png in Resources */ = {isa = PBXBuildFile; fileRef = A48D5F448F7B7671AB9EA86E7FB3C8B2 /* kk_icon_fileDic.png */; };
-		F39DFC8A2A7131DEAEED87E26590E60A /* UIImage+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB03F52C12D8E316DE54BF1D25D7659 /* UIImage+KKFileBrowser.m */; };
-		F45104F1C813F95CEB4E66B03545042D /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */; };
-		F4EA9C5B62C77A573A40121C5BAB93AF /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		02D2EFB96EDD017BD65A99FBF15FB5CF /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2D3FE3F54A341951B03B29F9367376 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032AB140C24A8CD9E656D22A6D0D844F /* KKFileBrowserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060CDE58C965FD70BC8EC31D674F0E0D /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D5EE174E9D40A2707E8D7B0FD136B /* NSObject+MJCoding.m */; };
+		095387BD4F62DD2E957735B800B6BB23 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B634551C35378F0EB00B814D51920A6 /* KKFileBrowser-KKFileBrowser in Resources */ = {isa = PBXBuildFile; fileRef = C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser-KKFileBrowser */; };
+		132D2B3133FBA7F46D3B9EE6BD125790 /* KKFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0382A65A8B941C4CD9358A56D050BF6A /* KKFileListViewController.m */; };
+		176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */; };
+		17D4BFA36B27AA5F24B455D3EA72C345 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1931D706C0947430A00E20AC6BE96768 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BECAE76AC71B0562AFA7E5BFDE07144 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */; };
+		1EB3A005F6B318A852DAC28A21A6F92D /* KKFileBrowserDatabaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE05318AFDC9B1686B16B5DA4A4596 /* KKFileBrowserDatabaseTableViewController.m */; };
+		24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D5696AB88C84323CF3D3A667AC7DF2B0 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		283F43BB035CD5642849E67ACC990CF6 /* UIImage+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB03F52C12D8E316DE54BF1D25D7659 /* UIImage+KKFileBrowser.m */; };
+		2B2D08D5805E20B6FD445D987051A9C8 /* KKFileBrowserDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A19AAA6409353EB1EDF4CC30FE58CF /* KKFileBrowserDatabase.m */; };
+		2CACFE8DD70B4E91F7565B4EE2ECC905 /* kk_icon_fileUnknow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEAFFE74F097F5E1B2BAEE06579318A /* kk_icon_fileUnknow.png */; };
+		32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33427655E5F98D617F181BDCBA20B989 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */; };
+		39CAABDB7288E15F2B2FBEFE175C2524 /* KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E7AA49AC6D38FCF3ACDBCD1E82F508 /* KKFileBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4237E72C6B9FDCFFA7AEFD227D8E5906 /* NSString+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E41575921295BB8968EF7A0BBFDEB176 /* NSString+KKFileBrowser.m */; };
+		429B3AC6ED37A28BE88F69D52A43E09D /* kk_icon_fileDic.png in Resources */ = {isa = PBXBuildFile; fileRef = A48D5F448F7B7671AB9EA86E7FB3C8B2 /* kk_icon_fileDic.png */; };
+		45217F33C8597100D6583DAF30FC1F4D /* kk_icon_fileMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5C09B53AE407F00F0C7C8207F4D56C /* kk_icon_fileMusic.png */; };
+		4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4970FE3FDEEEAFF4E99EA8BD7891B6C7 /* kk_icon_fileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */; };
+		4E1BC598D27568EBF26AE0A10D7D5342 /* KKFileBrowserDatabaseItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF22CBE8E84AC0A35CFA89D86A3F9FC /* KKFileBrowserDatabaseItemViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53EAA4C498E1C47F82AD238D778B916D /* KKFileBrowserDatabaseColumnModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D43E35C8BE7FA28ECE905D59C823163B /* KKFileBrowserDatabaseColumnModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5450BB59C094AE4E1489987E9103D484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5952141545C4551EB002254B6C2E749A /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D8A48AA8FFFC5E9BCEE47B1C28AE7 /* MJPropertyType.m */; };
+		5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66FCF93EC749B8B3078FB0EFA9FA38CD /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AED280D4C47820FC313568F4B8A3CAC /* KKFileBrowserDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF3AC4801F4B8B265D675A03CF68289 /* KKFileBrowserDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C7FF8CAD479B4673FB71CE1EBE58A9D /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */; };
+		73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		749603B6087A98750235560A3268BD0B /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C09F4BB4CFD79723CD04FC6433332C /* MJPropertyKey.m */; };
+		77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628217C271B0DEEAC03BB3277347CE8 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B6E184AD9B9B7EFECD9C268D7C7D5E5 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A69B8FC3D1450FE163C6DEDDB56F71 /* MJExtension-dummy.m */; };
+		8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E4713CFAB6D46304FAD6BD2058A01752 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8548124A9226978FB2B7D2B877A33450 /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855681FDBE5B26CED15C9AC07B2DEDAC /* KKFileDirectoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA421ADCA3C7084058BDB579287A0D3E /* KKFileDirectoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AB935AB0CE5A21A456CDF3D9AEAEAD0 /* KKFileDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A1410CDF70F964D733161404BEECA /* KKFileDirectoryViewController.m */; };
+		8F72FD5323907BD486F2D686205CFACE /* Pods-KKFileBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84024A285C81052A188B184CA103DD3F /* Pods-KKFileBrowser_Example-dummy.m */; };
+		8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		913084BAA0E8950A7283DF5E9BEC7AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9523AA0687829EA83E9CF9819AB140F5 /* KKFileBrowserDatabaseItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A4EEB3BF5C02BDE81C099DA44A47C /* KKFileBrowserDatabaseItemViewController.m */; };
+		978F181B44BCD2AA3D66A24B5B85A1C3 /* kk_icon_fileVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = B34946766A4E7050428FCBE5F40D5D8B /* kk_icon_fileVideo.png */; };
+		9879A64F2DF0380FE93DACD0D70D8C3D /* KKFileBrowserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */; };
+		98E0E4ACC4E0B7E8E28076670BD20F45 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B91FD1408A1606E440539690D0AF3E3 /* KKFileBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9652FDE152038479C5E2F039B8FACA05 /* KKFileBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E8964982A3D65843528EEAF048692C3 /* KKFileBrowserDatabaseItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D900473D35E33967EAF1E6D4141DDC /* KKFileBrowserDatabaseItemCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A57D3A89A2F84A91CC3FA4F558D29A72 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 92456538ED53282E371F2AE0121C9301 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8123F50E638E278FF5D27350E69284C /* KKQLPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 741C5FF12B95FBFFCE744A29058E1C32 /* KKQLPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA19A1E1D661DA726CE488A61F1D5D02 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B456EC4E649DF1AEA7D24E3D4F5678FF /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6EBF56DD33AF5F9172CCA2B333B6237 /* kk_icon_fileWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E2A5FB7321E0F7796AEDAF4F5F7F42 /* kk_icon_fileWeb.png */; };
+		B79A603306F4858D949BA97E925D7208 /* KKFileBrowserDatabaseColumnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC654FB8FCE0910F9EC6FD462E843C5D /* KKFileBrowserDatabaseColumnModel.m */; };
+		B816D0D44FD729ADC4FC2F9775E85181 /* KKFileBrowserDatabaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBDAA4761D8C203FE238F80F935639F /* KKFileBrowserDatabaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0F6EB3FA52DCC69CBEDB51E5C9DD7CD /* kk_icon_fileZip.png in Resources */ = {isa = PBXBuildFile; fileRef = 644F1FA75B85F897572F9646B5B9D0B7 /* kk_icon_fileZip.png */; };
+		C10B991C742C2D39684382A8E7352FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C4AA25E4DA26CC57A93A8A8FCB31BBBF /* KKFileListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6956161F34CD7A75FA02B6FF68C4ABE /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */; };
+		CF78053822993058DC71F5F078146628 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */; };
+		D5ADF43B25FD02C0715826296532BB30 /* KKFileBrowserCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F84A7349303279DA2F14CF05480E31C1 /* KKFileBrowserCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6540C6462AC1BBA0E876B19DF182562 /* UIImage+KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A655E2D3AF525A074728E9756CB11247 /* UIImage+KKFileBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6B078177985895F2730618FE4B58708 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A103D3D43813DA34D0152B74676F39 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD138D65F43A0E9B2E3281EF0DA5278 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */; };
+		DC1212843DE6197E81B67DF05BBCD986 /* NSString+KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 365D23B73E637CD1A9A248BC3D0BB458 /* NSString+KKFileBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E11BAFF095BC202D884E4CD65A40B943 /* KKFileBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40260AE0193CC1259C61CA80230FA14A /* KKFileBrowserCollectionViewCell.m */; };
+		E5B6B84D3EDBE81EF3B41D56FCA4A0D7 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */; };
+		E698A6344260D5653A889386D19DAAC6 /* kk_icon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = C2228852AC32A691DEBF8231C8D338AF /* kk_icon_right.png */; };
+		ED383E6AE8A27E31C1870F9DA0DF66C1 /* KKFileBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CFB556D1103F19CE10F6F3F325D87A /* KKFileBrowser-dummy.m */; };
+		EE71E805172D65DB9022621251C9A0A9 /* KKQLPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F26D47A08FEBD6EE041BA1B0F5ADB05 /* KKQLPreviewController.m */; };
+		EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C39BAAED423BD136F9084AB51E9E0 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F32D50A12BA544DBB6EFD0FB7D086230 /* KKFileBrowserDatabaseItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BEA42BDDF46B965EFF931492D9E733 /* KKFileBrowserDatabaseItemCell.m */; };
+		F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 07211D40E95E6CF4B7443AAAF8D0B18F /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F617C590573C3E27997D26F402B53954 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62076ADB1F6CD380A6FE77EE05D186A /* kk_icon_fileTxt.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF7D8D8DA3FAE18F80A998D8DCDB48 /* kk_icon_fileTxt.png */; };
+		F7BE55DFC9DBDCEE0A2841E2BBDF713A /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1AF6611BB4ACD9A8926C83FB5BECEB02 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		1CC60B7EA06467A92A6BF1BFF3B642E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
-		};
-		40606E722B3AA9C0E7687E2AF13C7CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		47B154437D09C06210DF78C040759156 /* PBXContainerItemProxy */ = {
+		24F192A2E0340FF4859EF8367D62795A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F7B7235D3E1D78685F9CF3C920A15D8;
 			remoteInfo = "KKFileBrowser-KKFileBrowser";
 		};
-		5AA5249A3762A9F8690C712F531AA1D5 /* PBXContainerItemProxy */ = {
+		503F57125B3351B898135921EEBF2DCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
 			remoteInfo = MJExtension;
 		};
-		785BA0171AD9573D2E4818B335A5DF38 /* PBXContainerItemProxy */ = {
+		7320B7892495A6A23D2810E2A14E958A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6FC2FF5F92188774EE819AC8B7978F6E;
 			remoteInfo = KKFileBrowser;
+		};
+		747E7B627CF732685318F602E9DB859D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		9B9374314AA4963578C6F54B345C38B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		A91DFD61655F935BCB1608D6159E6BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -142,7 +140,6 @@
 		080479822C7152BF98D2D6681565968D /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		08A9C2C3331EE8473606985BF5793819 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		10027E0CB2C91DB8A91F4555786FC9C5 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		10A19AAA6409353EB1EDF4CC30FE58CF /* KKFileBrowserDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKFileBrowserDatabase.m; sourceTree = "<group>"; };
 		12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileListViewController.h; path = KKFileBrowser/Classes/KKFileListViewController.h; sourceTree = "<group>"; };
@@ -154,9 +151,8 @@
 		1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
 		27650FCAE91615B7FEA8B815F7037E5F /* Pods-KKFileBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKFileBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
 		365D23B73E637CD1A9A248BC3D0BB458 /* NSString+KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKFileBrowser.h"; path = "KKFileBrowser/Classes/NSString+KKFileBrowser.h"; sourceTree = "<group>"; };
 		3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFileBrowser.debug.xcconfig; sourceTree = "<group>"; };
@@ -177,10 +173,11 @@
 		5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		60359B58B4451A73D59F164230CF7691 /* Pods-KKFileBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFileBrowser_Example-Info.plist"; sourceTree = "<group>"; };
 		644F1FA75B85F897572F9646B5B9D0B7 /* kk_icon_fileZip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileZip.png; path = KKFileBrowser/Assets/kk_icon_fileZip.png; sourceTree = "<group>"; };
-		68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKFileBrowser_Example.framework; path = "Pods-KKFileBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68196F2481D4399A61A7219ED86986D1 /* Pods-KKFileBrowser_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKFileBrowser_Example"; path = Pods_KKFileBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		6E07CD55FEA32922C523DEADEDD8D513 /* Pods-KKFileBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKFileBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		741C5FF12B95FBFFCE744A29058E1C32 /* KKQLPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKQLPreviewController.h; path = KKFileBrowser/Classes/KKQLPreviewController.h; sourceTree = "<group>"; };
 		7F26D47A08FEBD6EE041BA1B0F5ADB05 /* KKQLPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKQLPreviewController.m; path = KKFileBrowser/Classes/KKQLPreviewController.m; sourceTree = "<group>"; };
 		801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFileBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +186,7 @@
 		873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		8BEAFFE74F097F5E1B2BAEE06579318A /* kk_icon_fileUnknow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileUnknow.png; path = KKFileBrowser/Assets/kk_icon_fileUnknow.png; sourceTree = "<group>"; };
 		92456538ED53282E371F2AE0121C9301 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFileBrowser.framework; path = KKFileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFileBrowser; path = KKFileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		95EA3935A4950E76E5CABDD8D8FB6885 /* KKFileBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKFileBrowser-Info.plist"; sourceTree = "<group>"; };
 		9652FDE152038479C5E2F039B8FACA05 /* KKFileBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-umbrella.h"; sourceTree = "<group>"; };
@@ -205,11 +202,10 @@
 		A07F4AA5AC83469826F351211ABF1DC0 /* KKFileBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-prefix.pch"; sourceTree = "<group>"; };
 		A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileImage.png; path = KKFileBrowser/Assets/kk_icon_fileImage.png; sourceTree = "<group>"; };
 		A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48D5F448F7B7671AB9EA86E7FB3C8B2 /* kk_icon_fileDic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileDic.png; path = KKFileBrowser/Assets/kk_icon_fileDic.png; sourceTree = "<group>"; };
 		A655E2D3AF525A074728E9756CB11247 /* UIImage+KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KKFileBrowser.h"; path = "KKFileBrowser/Classes/UIImage+KKFileBrowser.h"; sourceTree = "<group>"; };
 		A7E7AA49AC6D38FCF3ACDBCD1E82F508 /* KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileBrowser.h; path = KKFileBrowser/Classes/KKFileBrowser.h; sourceTree = "<group>"; };
-		A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5C09B53AE407F00F0C7C8207F4D56C /* kk_icon_fileMusic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileMusic.png; path = KKFileBrowser/Assets/kk_icon_fileMusic.png; sourceTree = "<group>"; };
 		AAF22CBE8E84AC0A35CFA89D86A3F9FC /* KKFileBrowserDatabaseItemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKFileBrowserDatabaseItemViewController.h; sourceTree = "<group>"; };
 		AB46AC76A086C7B6579F1F2F1B4A7652 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
@@ -224,7 +220,7 @@
 		C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFileBrowserInfo.m; path = KKFileBrowser/Classes/KKFileBrowserInfo.m; sourceTree = "<group>"; };
 		C2228852AC32A691DEBF8231C8D338AF /* kk_icon_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_right.png; path = KKFileBrowser/Assets/kk_icon_right.png; sourceTree = "<group>"; };
 		C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFileBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
-		C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KKFileBrowser.bundle; path = "KKFileBrowser-KKFileBrowser.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser-KKFileBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "KKFileBrowser-KKFileBrowser"; path = KKFileBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
@@ -248,44 +244,42 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18367C2D1DEF3EC1FA2C11E560FA7AE4 /* Frameworks */ = {
+		46CE7976A327A98FA11B937B79401E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45104F1C813F95CEB4E66B03545042D /* FMDB.framework in Frameworks */,
-				4B01881E434501559FA3E25D35B14D4D /* Foundation.framework in Frameworks */,
-				45AD74A128DC42CBD171509DA9C8A66B /* MJExtension.framework in Frameworks */,
+				B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC334D6A2C17388EE5E657D730DEF4E /* Frameworks */ = {
+		6A47745CB1D3A39BBF163BA175D84725 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4EC022569B27ED082BF43FBEE93CCB /* Foundation.framework in Frameworks */,
+				C10B991C742C2D39684382A8E7352FA2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
+		7E91DFCAB9F97AD8D9DA3DA4EB6F975E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */,
+				5450BB59C094AE4E1489987E9103D484 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9D9B2FC8C3DF507B21EB7C53C42B41D /* Frameworks */ = {
+		A55438952C7F6B2A617668C3100DDBD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEAD6D65452F9C3CF64E3BBF21D223A6 /* Frameworks */ = {
+		B111C0B85495162160D90ECBD2144B91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D99F8A1B703409937E4B4D1A399DC6 /* Foundation.framework in Frameworks */,
+				913084BAA0E8950A7283DF5E9BEC7AB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +397,26 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		612BBC4455875D96225660C3D6BEB9AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
+				9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser */,
+				C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser-KKFileBrowser */,
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */,
+				68196F2481D4399A61A7219ED86986D1 /* Pods-KKFileBrowser_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6572BC6FB7862D13A39C4B8FC20EEE9B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,14 +425,6 @@
 				4E3B3202EA6F7C5130BFA469A5A4FBA1 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		6AC97B92101582F61236F73C275A2B12 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		83F075A19D67F2AE67C878E2FDD8D063 /* MJExtension */ = {
@@ -468,28 +474,6 @@
 			path = "Target Support Files/Pods-KKFileBrowser_Example";
 			sourceTree = "<group>";
 		};
-		97A3D3D2840059F9BEBE3F840C3411BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
-				C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */,
-				9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */,
-				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */,
-				68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9BC995E2EE38150FF4F1C480AD1C7F39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */,
-				A9A1B96C3BC2E83CDF06C3748528A26D /* MJExtension.framework */,
-				6AC97B92101582F61236F73C275A2B12 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BA965723F0DA8CD4FC9C157C2135BCAC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -503,11 +487,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA965723F0DA8CD4FC9C157C2135BCAC /* Development Pods */,
-				9BC995E2EE38150FF4F1C480AD1C7F39 /* Frameworks */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				046C02C60E946C0555299E732BD8E835 /* Pods */,
-				97A3D3D2840059F9BEBE3F840C3411BC /* Products */,
+				612BBC4455875D96225660C3D6BEB9AE /* Products */,
 				324EFC7E0D4A584DC2B318689C176156 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DAAB1A3089A01CEA43DE06D260323F41 /* Cell */ = {
@@ -564,65 +556,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72C6790990171107FF72D4641865344F /* Headers */ = {
+		1D8E4317C43E801B146629D24251A1E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A43AF819A434EB4E699702B2573321 /* MJExtension-umbrella.h in Headers */,
-				D9E28E465FE35D50AD2F2E9D0FE8EF81 /* MJExtension.h in Headers */,
-				591467CC7B58AAC392E3D124B2869E68 /* MJExtensionConst.h in Headers */,
-				88943ADCA322857A9325BB8D8F5628C3 /* MJFoundation.h in Headers */,
-				C409C3E710869925FC1E6AA10F9B991E /* MJProperty.h in Headers */,
-				9CCB1BFAE5ACEF4AF19BCC21EE2D40B6 /* MJPropertyKey.h in Headers */,
-				47159B86379988B8366DF9970586A40D /* MJPropertyType.h in Headers */,
-				F4EA9C5B62C77A573A40121C5BAB93AF /* NSObject+MJClass.h in Headers */,
-				8ACD3F249DD69BF590171EBA43E87AA1 /* NSObject+MJCoding.h in Headers */,
-				C7CD766869CDEFE7B7285B45D5D755BA /* NSObject+MJKeyValue.h in Headers */,
-				ECAD055126E3388F7E8C14464C1CE332 /* NSObject+MJProperty.h in Headers */,
-				1075051F6F8D6564324292F9E2E7CC29 /* NSString+MJExtension.h in Headers */,
+				F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */,
+				24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */,
+				58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */,
+				5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */,
+				32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */,
+				3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */,
+				8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7596DF1FFB76DECD8589A8FF5924B2DC /* Headers */ = {
+		772394CCFFF82FC756361A6A594C4CB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8709683BBA252479B78155C5887A5290 /* KKFileBrowser-umbrella.h in Headers */,
-				B93CDF3477135647BCF4010DAA4290B4 /* KKFileBrowser.h in Headers */,
-				1F036DB291EBC3C98FDBD32A4F3A9BB4 /* KKFileBrowserCollectionViewCell.h in Headers */,
-				2628B81C4E3DBA3CAC0095246B56BECD /* KKFileBrowserDatabase.h in Headers */,
-				443B20B4FED3D5E8619887CBD9F0F4AE /* KKFileBrowserDatabaseColumnModel.h in Headers */,
-				3309AFDC2ED4BD1489366F3ED045665F /* KKFileBrowserDatabaseItemCell.h in Headers */,
-				95588833C6C1CEAF29E562D5A5987408 /* KKFileBrowserDatabaseItemViewController.h in Headers */,
-				AA4704734A14ADB0C89B06468FB1CC0B /* KKFileBrowserDatabaseTableViewController.h in Headers */,
-				F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo.h in Headers */,
-				D01176F28177C65FC2F2C3C7E6112B5E /* KKFileDirectoryViewController.h in Headers */,
-				886861C6D7C5A4CB8294682A76831641 /* KKFileListViewController.h in Headers */,
-				0D39B2CEDDFE16E1D654E39F1591D493 /* KKQLPreviewController.h in Headers */,
-				EBD52D48DF0E996E947B26B222C09B55 /* NSString+KKFileBrowser.h in Headers */,
-				37CF2275AC9F8E63AE7316B6FCFA7CD5 /* UIImage+KKFileBrowser.h in Headers */,
+				AA19A1E1D661DA726CE488A61F1D5D02 /* MJExtension.h in Headers */,
+				8548124A9226978FB2B7D2B877A33450 /* MJExtension-umbrella.h in Headers */,
+				02D2EFB96EDD017BD65A99FBF15FB5CF /* MJExtensionConst.h in Headers */,
+				17D4BFA36B27AA5F24B455D3EA72C345 /* MJFoundation.h in Headers */,
+				A57D3A89A2F84A91CC3FA4F558D29A72 /* MJProperty.h in Headers */,
+				095387BD4F62DD2E957735B800B6BB23 /* MJPropertyKey.h in Headers */,
+				D6B078177985895F2730618FE4B58708 /* MJPropertyType.h in Headers */,
+				F7BE55DFC9DBDCEE0A2841E2BBDF713A /* NSObject+MJClass.h in Headers */,
+				98E0E4ACC4E0B7E8E28076670BD20F45 /* NSObject+MJCoding.h in Headers */,
+				66FCF93EC749B8B3078FB0EFA9FA38CD /* NSObject+MJKeyValue.h in Headers */,
+				F617C590573C3E27997D26F402B53954 /* NSObject+MJProperty.h in Headers */,
+				D7A103D3D43813DA34D0152B74676F39 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */ = {
+		9E27CB2A75DE4E263D65880DC13F4F44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */,
-				538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */,
-				0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */,
-				7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */,
-				219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */,
-				A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */,
-				BB7ECF4DBE8D4BB38E6F2F08C326922A /* FMResultSet.h in Headers */,
+				39CAABDB7288E15F2B2FBEFE175C2524 /* KKFileBrowser.h in Headers */,
+				9B91FD1408A1606E440539690D0AF3E3 /* KKFileBrowser-umbrella.h in Headers */,
+				D5ADF43B25FD02C0715826296532BB30 /* KKFileBrowserCollectionViewCell.h in Headers */,
+				6AED280D4C47820FC313568F4B8A3CAC /* KKFileBrowserDatabase.h in Headers */,
+				53EAA4C498E1C47F82AD238D778B916D /* KKFileBrowserDatabaseColumnModel.h in Headers */,
+				9E8964982A3D65843528EEAF048692C3 /* KKFileBrowserDatabaseItemCell.h in Headers */,
+				4E1BC598D27568EBF26AE0A10D7D5342 /* KKFileBrowserDatabaseItemViewController.h in Headers */,
+				B816D0D44FD729ADC4FC2F9775E85181 /* KKFileBrowserDatabaseTableViewController.h in Headers */,
+				032AB140C24A8CD9E656D22A6D0D844F /* KKFileBrowserInfo.h in Headers */,
+				855681FDBE5B26CED15C9AC07B2DEDAC /* KKFileDirectoryViewController.h in Headers */,
+				C4AA25E4DA26CC57A93A8A8FCB31BBBF /* KKFileListViewController.h in Headers */,
+				A8123F50E638E278FF5D27350E69284C /* KKQLPreviewController.h in Headers */,
+				DC1212843DE6197E81B67DF05BBCD986 /* NSString+KKFileBrowser.h in Headers */,
+				D6540C6462AC1BBA0E876B19DF182562 /* UIImage+KKFileBrowser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6B71E5F65DB478DBBDDC72920758CBC /* Headers */ = {
+		F76522F26E596BAD70311ED51FF9DD6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2BA4665FB3283BBA6F5494496DB1199 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */,
+				1931D706C0947430A00E20AC6BE96768 /* Pods-KKFileBrowser_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,12 +623,12 @@
 /* Begin PBXNativeTarget section */
 		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27481B652023E43105C8AD2246DAC9EC /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildConfigurationList = A7F2B8EBDD4C6C685418FBB43A0F7192 /* Build configuration list for PBXNativeTarget "MJExtension" */;
 			buildPhases = (
-				72C6790990171107FF72D4641865344F /* Headers */,
-				898C051F092A2D7B07140CFCF402BAE0 /* Sources */,
-				3FC334D6A2C17388EE5E657D730DEF4E /* Frameworks */,
-				5E492C46396F7ECE5F115F2AA966941F /* Resources */,
+				772394CCFFF82FC756361A6A594C4CB9 /* Headers */,
+				A0B5E62667F7B5B4B96C5611EDCAB765 /* Sources */,
+				6A47745CB1D3A39BBF163BA175D84725 /* Frameworks */,
+				7792CF897114D1BBD9E08DA9A6BD698D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -644,38 +636,38 @@
 			);
 			name = MJExtension;
 			productName = MJExtension;
-			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */;
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension */;
 			productType = "com.apple.product-type.framework";
 		};
 		6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F73F614628C2F9E616B16D799165E85D /* Build configuration list for PBXNativeTarget "KKFileBrowser" */;
+			buildConfigurationList = 768B57667E4180885ABA81790B09246A /* Build configuration list for PBXNativeTarget "KKFileBrowser" */;
 			buildPhases = (
-				7596DF1FFB76DECD8589A8FF5924B2DC /* Headers */,
-				FA0503F610D168DBF3406F48AD074621 /* Sources */,
-				18367C2D1DEF3EC1FA2C11E560FA7AE4 /* Frameworks */,
-				0DE87D1B170D9E1D3021145D3B7F4261 /* Resources */,
+				9E27CB2A75DE4E263D65880DC13F4F44 /* Headers */,
+				5A357F57C79925F367A0F9DAFE4C8D3C /* Sources */,
+				7E91DFCAB9F97AD8D9DA3DA4EB6F975E /* Frameworks */,
+				BE6DE2355B03BE38BA601AFB68372467 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8241BD8F73EAFE57D884D90AC42CB1A /* PBXTargetDependency */,
-				651249E75F10E3D30DF24382B90DEF96 /* PBXTargetDependency */,
-				7B00D49F29E92B29D26AA6FD5B2E5848 /* PBXTargetDependency */,
+				761A0CB3482412D0B148C4A9C526CD4D /* PBXTargetDependency */,
+				0660F48CB0139AEA899A0F0E82A39EC3 /* PBXTargetDependency */,
+				F56A332F0A9A66620069A469E07B21B7 /* PBXTargetDependency */,
 			);
 			name = KKFileBrowser;
 			productName = KKFileBrowser;
-			productReference = 9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */;
+			productReference = 9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser */;
 			productType = "com.apple.product-type.framework";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildConfigurationList = 69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				DCCC73753CB120F68D482DBCD2F11BB6 /* Headers */,
-				7E0D56167C29831E3033100E4A70F3B9 /* Sources */,
-				41E857D338F96D89E73F6E28241F0A8B /* Frameworks */,
-				2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */,
+				1D8E4317C43E801B146629D24251A1E5 /* Headers */,
+				4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */,
+				46CE7976A327A98FA11B937B79401E29 /* Frameworks */,
+				391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -683,45 +675,45 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
 			productType = "com.apple.product-type.framework";
 		};
 		886A94F783E938CD9D71877B978D6521 /* Pods-KKFileBrowser_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DDD156DEA25916893A8BC458B23FEF9 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */;
+			buildConfigurationList = DAE6CA0AD98E74F8D8A65826E44FE364 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */;
 			buildPhases = (
-				E6B71E5F65DB478DBBDDC72920758CBC /* Headers */,
-				5F0024547AC64AF187BA2EDBEF0BE628 /* Sources */,
-				FEAD6D65452F9C3CF64E3BBF21D223A6 /* Frameworks */,
-				B3B8C5FA29660E6314EF2EB180B6FE83 /* Resources */,
+				F76522F26E596BAD70311ED51FF9DD6A /* Headers */,
+				D49B485F604C9A440F1DE66610EDAB45 /* Sources */,
+				B111C0B85495162160D90ECBD2144B91 /* Frameworks */,
+				221A985047DEF72AAE6EE871E9417836 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6FB35D48D4ED5BD32D75D313E163B93E /* PBXTargetDependency */,
-				15B161C3138BFCD1096F6A5C905F0E6A /* PBXTargetDependency */,
-				3178A66B5AED393F62D5051215B8E6EA /* PBXTargetDependency */,
+				113BBE9659E0ADE32152C0EF42A0ED11 /* PBXTargetDependency */,
+				A90DCC77A82D25F9443C513E182F28FC /* PBXTargetDependency */,
+				03DAC57FEB6C3A9C3DA9B1CC30BF8E05 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKFileBrowser_Example";
-			productName = "Pods-KKFileBrowser_Example";
-			productReference = 68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */;
+			productName = Pods_KKFileBrowser_Example;
+			productReference = 68196F2481D4399A61A7219ED86986D1 /* Pods-KKFileBrowser_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		9F7B7235D3E1D78685F9CF3C920A15D8 /* KKFileBrowser-KKFileBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9B08B0B5F4500AA706BDDB6E37BF174 /* Build configuration list for PBXNativeTarget "KKFileBrowser-KKFileBrowser" */;
+			buildConfigurationList = 85FCEC494919E64FBA54E079CEE30B54 /* Build configuration list for PBXNativeTarget "KKFileBrowser-KKFileBrowser" */;
 			buildPhases = (
-				FDAE620AF6D5653D7AAC25BEA7E99D7C /* Sources */,
-				F9D9B2FC8C3DF507B21EB7C53C42B41D /* Frameworks */,
-				BBFB0E43FB04044DBD7B9D13A9466B19 /* Resources */,
+				68EFFB1BD0EEF179A3BBA992D5156474 /* Sources */,
+				A55438952C7F6B2A617668C3100DDBD6 /* Frameworks */,
+				742BEC70773C567383EF94C852455248 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "KKFileBrowser-KKFileBrowser";
-			productName = "KKFileBrowser-KKFileBrowser";
-			productReference = C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */;
+			productName = KKFileBrowser;
+			productReference = C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser-KKFileBrowser */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -730,19 +722,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 97A3D3D2840059F9BEBE3F840C3411BC /* Products */;
+			productRefGroup = 612BBC4455875D96225660C3D6BEB9AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -756,193 +748,163 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DE87D1B170D9E1D3021145D3B7F4261 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				552A6B597FF881F8CC35B235EBF9519E /* KKFileBrowser.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B6B314F2508F3A29CC15F9D75CB5E33 /* Resources */ = {
+		221A985047DEF72AAE6EE871E9417836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E492C46396F7ECE5F115F2AA966941F /* Resources */ = {
+		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3B8C5FA29660E6314EF2EB180B6FE83 /* Resources */ = {
+		742BEC70773C567383EF94C852455248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429B3AC6ED37A28BE88F69D52A43E09D /* kk_icon_fileDic.png in Resources */,
+				4970FE3FDEEEAFF4E99EA8BD7891B6C7 /* kk_icon_fileImage.png in Resources */,
+				45217F33C8597100D6583DAF30FC1F4D /* kk_icon_fileMusic.png in Resources */,
+				F62076ADB1F6CD380A6FE77EE05D186A /* kk_icon_fileTxt.png in Resources */,
+				2CACFE8DD70B4E91F7565B4EE2ECC905 /* kk_icon_fileUnknow.png in Resources */,
+				978F181B44BCD2AA3D66A24B5B85A1C3 /* kk_icon_fileVideo.png in Resources */,
+				B6EBF56DD33AF5F9172CCA2B333B6237 /* kk_icon_fileWeb.png in Resources */,
+				C0F6EB3FA52DCC69CBEDB51E5C9DD7CD /* kk_icon_fileZip.png in Resources */,
+				E698A6344260D5653A889386D19DAAC6 /* kk_icon_right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7792CF897114D1BBD9E08DA9A6BD698D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBFB0E43FB04044DBD7B9D13A9466B19 /* Resources */ = {
+		BE6DE2355B03BE38BA601AFB68372467 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36DBED0B82F71D656F4F88E2395CD05 /* kk_icon_fileDic.png in Resources */,
-				76856D452328904F6381ADB34682A0A5 /* kk_icon_fileImage.png in Resources */,
-				01D941507B60D7C5254BC02603AB6930 /* kk_icon_fileMusic.png in Resources */,
-				767D293C87E421B948434F791F4F0192 /* kk_icon_fileTxt.png in Resources */,
-				D1B42CF1FC265652D9F9E65E0B2A5E1C /* kk_icon_fileUnknow.png in Resources */,
-				AD15143C8DF0C5B9357610324E224C6E /* kk_icon_fileVideo.png in Resources */,
-				4C73526800D76C93E1F9885BC7F78E06 /* kk_icon_fileWeb.png in Resources */,
-				3551882FB9D5B1FB59364082E7FDEED9 /* kk_icon_fileZip.png in Resources */,
-				634D7969CFE3F46AE59F5031BF692758 /* kk_icon_right.png in Resources */,
+				0B634551C35378F0EB00B814D51920A6 /* KKFileBrowser-KKFileBrowser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F0024547AC64AF187BA2EDBEF0BE628 /* Sources */ = {
+		4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996D5F12B9279A008C8838A64A2C5D11 /* Pods-KKFileBrowser_Example-dummy.m in Sources */,
+				4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */,
+				EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */,
+				73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */,
+				77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */,
+				176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */,
+				8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0D56167C29831E3033100E4A70F3B9 /* Sources */ = {
+		5A357F57C79925F367A0F9DAFE4C8D3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */,
-				0C93E589E31C5CBCA37586544BEC1005 /* FMDatabaseAdditions.m in Sources */,
-				0370787809FDCBCB15C2D4DD22190732 /* FMDatabasePool.m in Sources */,
-				0CA022FE5CC3F8A1ECC6699F10BF81EE /* FMDatabaseQueue.m in Sources */,
-				7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */,
-				FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */,
+				ED383E6AE8A27E31C1870F9DA0DF66C1 /* KKFileBrowser-dummy.m in Sources */,
+				E11BAFF095BC202D884E4CD65A40B943 /* KKFileBrowserCollectionViewCell.m in Sources */,
+				2B2D08D5805E20B6FD445D987051A9C8 /* KKFileBrowserDatabase.m in Sources */,
+				B79A603306F4858D949BA97E925D7208 /* KKFileBrowserDatabaseColumnModel.m in Sources */,
+				F32D50A12BA544DBB6EFD0FB7D086230 /* KKFileBrowserDatabaseItemCell.m in Sources */,
+				9523AA0687829EA83E9CF9819AB140F5 /* KKFileBrowserDatabaseItemViewController.m in Sources */,
+				1EB3A005F6B318A852DAC28A21A6F92D /* KKFileBrowserDatabaseTableViewController.m in Sources */,
+				9879A64F2DF0380FE93DACD0D70D8C3D /* KKFileBrowserInfo.m in Sources */,
+				8AB935AB0CE5A21A456CDF3D9AEAEAD0 /* KKFileDirectoryViewController.m in Sources */,
+				132D2B3133FBA7F46D3B9EE6BD125790 /* KKFileListViewController.m in Sources */,
+				EE71E805172D65DB9022621251C9A0A9 /* KKQLPreviewController.m in Sources */,
+				4237E72C6B9FDCFFA7AEFD227D8E5906 /* NSString+KKFileBrowser.m in Sources */,
+				283F43BB035CD5642849E67ACC990CF6 /* UIImage+KKFileBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		898C051F092A2D7B07140CFCF402BAE0 /* Sources */ = {
+		68EFFB1BD0EEF179A3BBA992D5156474 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C160190F7D9FDD00A8E6DCB6E5CDF10 /* MJExtension-dummy.m in Sources */,
-				EEB5AC41695C215213714B02B88153EB /* MJExtensionConst.m in Sources */,
-				74C6FD1DD2EA900801CE4697652101D5 /* MJFoundation.m in Sources */,
-				09E6C72208278D211BB0059DF653917E /* MJProperty.m in Sources */,
-				F10ACE62CEE23E112222EF161A5C300C /* MJPropertyKey.m in Sources */,
-				64FC7F5B4F4F9B7BAAF01530C240379B /* MJPropertyType.m in Sources */,
-				94B7F549BBF75DDB63A1523188CE31D2 /* NSObject+MJClass.m in Sources */,
-				36141474BF9B43ECC5B0DEE251DAE793 /* NSObject+MJCoding.m in Sources */,
-				4E0CF64370A27651D4926C3209404050 /* NSObject+MJKeyValue.m in Sources */,
-				A2318986CCAB6210790168CAA4E3081B /* NSObject+MJProperty.m in Sources */,
-				9014B25BE28259FF2739BE7442C5EE19 /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA0503F610D168DBF3406F48AD074621 /* Sources */ = {
+		A0B5E62667F7B5B4B96C5611EDCAB765 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7B0BE60F3F3B094BD5058CCCC001FC /* KKFileBrowser-dummy.m in Sources */,
-				08EC3F75E83F824BFA71F55056FD45B3 /* KKFileBrowserCollectionViewCell.m in Sources */,
-				C1062BA4B0835899B90F7E9B1C86937D /* KKFileBrowserDatabase.m in Sources */,
-				99B1BA803DC5E2E956421592C7C11E7F /* KKFileBrowserDatabaseColumnModel.m in Sources */,
-				6713B0DC2A3F99A804636E998099BDB1 /* KKFileBrowserDatabaseItemCell.m in Sources */,
-				85ECA6E0E932F3C5D050136C8BA43A81 /* KKFileBrowserDatabaseItemViewController.m in Sources */,
-				9FC521EFB8FBB728B21879362275BE3F /* KKFileBrowserDatabaseTableViewController.m in Sources */,
-				7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo.m in Sources */,
-				E8986498BA41A7F6DF1B5892DE401CB2 /* KKFileDirectoryViewController.m in Sources */,
-				EF54E38F7007B55C3BB31153F9D5FCCE /* KKFileListViewController.m in Sources */,
-				3181DEAB70F5DAA7C7412F962677694F /* KKQLPreviewController.m in Sources */,
-				A6E9FC646200E095B23AC5A332866773 /* NSString+KKFileBrowser.m in Sources */,
-				F39DFC8A2A7131DEAEED87E26590E60A /* UIImage+KKFileBrowser.m in Sources */,
+				7B6E184AD9B9B7EFECD9C268D7C7D5E5 /* MJExtension-dummy.m in Sources */,
+				DBD138D65F43A0E9B2E3281EF0DA5278 /* MJExtensionConst.m in Sources */,
+				E5B6B84D3EDBE81EF3B41D56FCA4A0D7 /* MJFoundation.m in Sources */,
+				33427655E5F98D617F181BDCBA20B989 /* MJProperty.m in Sources */,
+				749603B6087A98750235560A3268BD0B /* MJPropertyKey.m in Sources */,
+				5952141545C4551EB002254B6C2E749A /* MJPropertyType.m in Sources */,
+				CF78053822993058DC71F5F078146628 /* NSObject+MJClass.m in Sources */,
+				060CDE58C965FD70BC8EC31D674F0E0D /* NSObject+MJCoding.m in Sources */,
+				1BECAE76AC71B0562AFA7E5BFDE07144 /* NSObject+MJKeyValue.m in Sources */,
+				C6956161F34CD7A75FA02B6FF68C4ABE /* NSObject+MJProperty.m in Sources */,
+				6C7FF8CAD479B4673FB71CE1EBE58A9D /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDAE620AF6D5653D7AAC25BEA7E99D7C /* Sources */ = {
+		D49B485F604C9A440F1DE66610EDAB45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F72FD5323907BD486F2D686205CFACE /* Pods-KKFileBrowser_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15B161C3138BFCD1096F6A5C905F0E6A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KKFileBrowser;
-			target = 6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */;
-			targetProxy = 785BA0171AD9573D2E4818B335A5DF38 /* PBXContainerItemProxy */;
-		};
-		3178A66B5AED393F62D5051215B8E6EA /* PBXTargetDependency */ = {
+		03DAC57FEB6C3A9C3DA9B1CC30BF8E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExtension;
 			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 1CC60B7EA06467A92A6BF1BFF3B642E9 /* PBXContainerItemProxy */;
+			targetProxy = 9B9374314AA4963578C6F54B345C38B9 /* PBXContainerItemProxy */;
 		};
-		651249E75F10E3D30DF24382B90DEF96 /* PBXTargetDependency */ = {
+		0660F48CB0139AEA899A0F0E82A39EC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KKFileBrowser-KKFileBrowser";
 			target = 9F7B7235D3E1D78685F9CF3C920A15D8 /* KKFileBrowser-KKFileBrowser */;
-			targetProxy = 47B154437D09C06210DF78C040759156 /* PBXContainerItemProxy */;
+			targetProxy = 24F192A2E0340FF4859EF8367D62795A /* PBXContainerItemProxy */;
 		};
-		6FB35D48D4ED5BD32D75D313E163B93E /* PBXTargetDependency */ = {
+		113BBE9659E0ADE32152C0EF42A0ED11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 1AF6611BB4ACD9A8926C83FB5BECEB02 /* PBXContainerItemProxy */;
+			targetProxy = 747E7B627CF732685318F602E9DB859D /* PBXContainerItemProxy */;
 		};
-		7B00D49F29E92B29D26AA6FD5B2E5848 /* PBXTargetDependency */ = {
+		761A0CB3482412D0B148C4A9C526CD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = A91DFD61655F935BCB1608D6159E6BF7 /* PBXContainerItemProxy */;
+		};
+		A90DCC77A82D25F9443C513E182F28FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKFileBrowser;
+			target = 6FC2FF5F92188774EE819AC8B7978F6E /* KKFileBrowser */;
+			targetProxy = 7320B7892495A6A23D2810E2A14E958A /* PBXContainerItemProxy */;
+		};
+		F56A332F0A9A66620069A469E07B21B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExtension;
 			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 5AA5249A3762A9F8690C712F531AA1D5 /* PBXContainerItemProxy */;
-		};
-		B8241BD8F73EAFE57D884D90AC42CB1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 40606E722B3AA9C0E7687E2AF13C7CF2 /* PBXContainerItemProxy */;
+			targetProxy = 503F57125B3351B898135921EEBF2DCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E4FBA320449AF7B96BF879322C85D1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KKFileBrowser/KKFileBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser.modulemap";
-				PRODUCT_MODULE_NAME = KKFileBrowser;
-				PRODUCT_NAME = KKFileBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -995,7 +957,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1008,10 +970,46 @@
 			};
 			name = Debug;
 		};
-		39DBFA5592D1CE6ADC6DE41D0EDF77B1 /* Release */ = {
+		5BBD7F2C19D5BB7006819FB2010A9198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61E131FF32BCCA76F21DF1C3644BFE99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8709B5CD2A8D2E3D883A57360443F45 /* KKFileBrowser.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1023,7 +1021,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KKFileBrowser/KKFileBrowser-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser.modulemap";
 				PRODUCT_MODULE_NAME = KKFileBrowser;
@@ -1039,196 +1037,7 @@
 			};
 			name = Release;
 		};
-		3FA9605C6B67FAD3E695EECF4CEF13BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD337269188350922C6035B8CC5268E1 /* FMDB.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_MODULE_NAME = FMDB;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5A3AEBAC12797BE9894E6C6228188B6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		62CF331F8CDAA4C1A61E89A2EC4008FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F71538AB189F687A69F5B4E691F5A3 /* FMDB.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
-				PRODUCT_MODULE_NAME = FMDB;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6C8E9A19DD28BF1ACCCEBBBFCCCB53E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKFileBrowser";
-				IBSC_MODULE = KKFileBrowser;
-				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = KKFileBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6EBE7444AD7A029D8F16BE9161304880 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801EDAE087390EC52639A904D4B3CCC5 /* Pods-KKFileBrowser_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8549584C6486A6E28063A9E934C997FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
-				PRODUCT_MODULE_NAME = MJExtension;
-				PRODUCT_NAME = MJExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		952E26BC1531F6879D6E2F63B7CACEBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8709B5CD2A8D2E3D883A57360443F45 /* KKFileBrowser.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKFileBrowser";
-				IBSC_MODULE = KKFileBrowser;
-				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = KKFileBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1278,7 +1087,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1290,10 +1099,60 @@
 			};
 			name = Release;
 		};
-		D1D622653D3745DBACF6C94CF6F94DCA /* Debug */ = {
+		643C43AF8D4D511174CC531BB1111996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8709B5CD2A8D2E3D883A57360443F45 /* KKFileBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKFileBrowser";
+				IBSC_MODULE = KKFileBrowser;
+				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KKFileBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6D9C13D85CC956836A56D23D72240B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F71538AB189F687A69F5B4E691F5A3 /* FMDB.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		845214753EBC3C9B8AC06031B667096B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A8BF182D8B1EBD231BF9FCCA398E2B8 /* MJExtension.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1320,59 +1179,204 @@
 			};
 			name = Debug;
 		};
+		911E20D2F2780122609210A3C5F80748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2B9B025DC7F36D5C99399B577E05A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKFileBrowser/KKFileBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKFileBrowser/KKFileBrowser.modulemap";
+				PRODUCT_MODULE_NAME = KKFileBrowser;
+				PRODUCT_NAME = KKFileBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD0D9F0093B2A725F9E25023501861DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKFileBrowser_Example/Pods-KKFileBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F280BEB53073224306640E211711957F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKFileBrowser";
+				IBSC_MODULE = KKFileBrowser;
+				INFOPLIST_FILE = "Target Support Files/KKFileBrowser/ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KKFileBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FE4D460869C5C23D104F5C5A19FB1F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD337269188350922C6035B8CC5268E1 /* FMDB.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27481B652023E43105C8AD2246DAC9EC /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1D622653D3745DBACF6C94CF6F94DCA /* Debug */,
-				8549584C6486A6E28063A9E934C997FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DDD156DEA25916893A8BC458B23FEF9 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */ = {
+		69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A3AEBAC12797BE9894E6C6228188B6B /* Debug */,
-				6EBE7444AD7A029D8F16BE9161304880 /* Release */,
+				FE4D460869C5C23D104F5C5A19FB1F25 /* Debug */,
+				6D9C13D85CC956836A56D23D72240B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9B08B0B5F4500AA706BDDB6E37BF174 /* Build configuration list for PBXNativeTarget "KKFileBrowser-KKFileBrowser" */ = {
+		768B57667E4180885ABA81790B09246A /* Build configuration list for PBXNativeTarget "KKFileBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C8E9A19DD28BF1ACCCEBBBFCCCB53E5 /* Debug */,
-				952E26BC1531F6879D6E2F63B7CACEBF /* Release */,
+				D2B9B025DC7F36D5C99399B577E05A55 /* Debug */,
+				61E131FF32BCCA76F21DF1C3644BFE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE1CF8B84020151C94CD4280C9C11ED5 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+		85FCEC494919E64FBA54E079CEE30B54 /* Build configuration list for PBXNativeTarget "KKFileBrowser-KKFileBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FA9605C6B67FAD3E695EECF4CEF13BB /* Debug */,
-				62CF331F8CDAA4C1A61E89A2EC4008FC /* Release */,
+				F280BEB53073224306640E211711957F /* Debug */,
+				643C43AF8D4D511174CC531BB1111996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F73F614628C2F9E616B16D799165E85D /* Build configuration list for PBXNativeTarget "KKFileBrowser" */ = {
+		A7F2B8EBDD4C6C685418FBB43A0F7192 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E4FBA320449AF7B96BF879322C85D1A /* Debug */,
-				39DBFA5592D1CE6ADC6DE41D0EDF77B1 /* Release */,
+				845214753EBC3C9B8AC06031B667096B /* Debug */,
+				911E20D2F2780122609210A3C5F80748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE6CA0AD98E74F8D8A65826E44FE364 /* Build configuration list for PBXNativeTarget "Pods-KKFileBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0D9F0093B2A725F9E25023501861DE /* Debug */,
+				5BBD7F2C19D5BB7006819FB2010A9198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

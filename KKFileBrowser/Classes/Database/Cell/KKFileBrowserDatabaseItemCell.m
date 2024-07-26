@@ -53,6 +53,7 @@
         _titleLabel.textAlignment = NSTextAlignmentCenter;
         _titleLabel.numberOfLines = 0;
         _titleLabel.font = [UIFont systemFontOfSize:15.f];
+        _titleLabel.adjustsFontSizeToFitWidth = YES;
     }
     return _titleLabel;
 }
@@ -114,6 +115,7 @@
     [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
+    _collectionView.decelerationRate = UIScrollViewDecelerationRateFast;
     return _collectionView;
 }
 
